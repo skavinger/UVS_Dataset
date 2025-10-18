@@ -1,0 +1,240 @@
+{
+    "001": {
+        "Name": "·Basilio San Juan·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "",
+                "Effect": "Draw 2 cards and discard 3 cards. You may attempt to play 1 attack from your discard pile. If you do, it gets +2 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "[Once per turn]",
+                "Effect": "After your attack deals damage, choose 1 of your opponent's foundations. That card does not ready during their next Ready Step.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 5,
+        "Health": 32,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "·Jeremy Ray·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "",
+                "Effect": "Reveal the top card of your deck. You may add it to the bottom of your deck. If you do not, and it is an asset or foundation, you may play it.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "[Once per turn] Commit 1 foundation",
+                "Effect": "After an attack deals damage, add 1 non-action card from your card pool to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 5,
+        "Health": 33,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "The Golden Ticket",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "chaos",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "If the next card you attempt to play this turn is an attack, your checks get +1 for the rest of this turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "[Once per turn] Discard 1 momentum",
+                "Effect": "For the rest of this turn, whenever 1 of your attacks deals damage, your opponent commits 1 foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Sweet Baby Challenge",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "chaos",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "After this card is destroyed, add it to your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Destroy",
+                "Effect": "After you check a non-attack, non-action card, add it to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "005": {
+        "Name": "...I'm Alone with My Joker and You",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "chaos",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "",
+                "Effect": "After your opponent's next Ready Phase, draw 1 card. Playable by either player. Playable while committed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent's Ready Phase, reveal 1 non-throw card in your hand. Until the end of your next turn, checks to play copies of the named card get +1.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

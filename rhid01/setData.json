@@ -1,0 +1,1227 @@
+{
+    "100": {
+        "Name": "Deliverance",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Remove",
+                "Effect": "Draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Remove",
+                "Effect": "Before the Damage Step of this unblocked attack, reduce this attack's damage to 4.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "101": {
+        "Name": "Revoke",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 0,
+        "Check": 5,
+        "Symbols": [
+            "evil",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After your rival plays an enhance ability, cancel its effects. Remove this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "First Form",
+                "Cost": "",
+                "Effect": "Your foundations get -1 difficulty for the rest of this Combat Phase. During your End Phase, build this card face down.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "102": {
+        "Name": "Templar",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you block with this card, draw 2 cards and gain 2 vitality.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Commit 1 foundation",
+                "Effect": "After your Punch attack deals damage, discard it and this card from your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "103": {
+        "Name": "Concussion Blast",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "air",
+            "chaos",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Flash",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is blocked, discard it from the card pool after it resolves.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 4,
+        "Damage": 8
+    },
+    "104": {
+        "Name": "Focus Charge",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Stun:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "Your next attack this turn gets +3 speed and +1 to its Powerful rating.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "105": {
+        "Name": "Spinning Necro Driver",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "life",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Multiple:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this card leaves your card pool due to a rival effect, add it to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "First Enhance",
+                "Cost": "",
+                "Effect": "Destroy 1 rival asset.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "106": {
+        "Name": "Steel Resurrection",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card gets -1 difficulty for each Weapon card in your card pool.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "If this attack is blocked by a non-attack card, your rival loses 2 vitality.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "107": {
+        "Name": "Breaking Bread",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "good",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Remove, discard 1 momentum",
+                "Effect": "Add 1 non-Unique foundation from your discard pile to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you build this foundation, add 1 attack from your card pool to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "108": {
+        "Name": "Celestial Being",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "fire",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Discard 2 momentum",
+                "Effect": "Your Reversal attack gets +3 speed and +3 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After your opponent plays an ability that would commit 1 or more cards in your staging area, cancel its effects.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "109": {
+        "Name": "Into The Sunset",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "order",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "Your attack gets +1 speed for every foundation in your rival's card pool.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Desperation Enhance",
+                "Cost": "Commit",
+                "Effect": "Commit 1 rival foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "009": {
+        "Name": "Super Soldier",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After you play an attack card, your rivals commits 1 foundation. If the card you played has a printed blank textbox, flip the committed foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "017": {
+        "Name": "Public Persona",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "If your attack is blocked, draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Destroy",
+                "Effect": "If your Punch attack is blocked, draw 1 card. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "001": {
+        "Name": "Kaden",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "",
+                "Cost": "Your attacks with a printed blank text box gain Powerful",
+                "Effect": "3.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you play an attack card with a printed blank text box, that card gains either Stun: 1, Breaker: 1, or you may add 1 card from your hand to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 28,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Crushing Power Shock",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 2,
+        "Damage": 6
+    },
+    "003": {
+        "Name": "Havoc Call",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "004": {
+        "Name": "Shrieking Terror",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 6,
+        "Damage": 4
+    },
+    "005": {
+        "Name": "Soul Resonator",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "006": {
+        "Name": "Broken Memories",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After you play an attack card with a printed blank text box, draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "Your Powerful attack gets +1 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "007": {
+        "Name": "Perfect Evolution",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "evil",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "This attack gets +X damage. X equals this attack's Powerful rating.",
+                "effectPath": ""
+            },
+            {
+                "Type": "First Form",
+                "Cost": "",
+                "Effect": "Reveal the top card of your deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "008": {
+        "Name": "Subject K88-01",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After an attack is played, it gets +1 or -1 damage (minimum 1).",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "Your powerful attack gets +2 speed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "010": {
+        "Name": "Reese",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit 1 foundation",
+                "Effect": "After your Punch attack deals damage, draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "[Your turn] Discard 1 card",
+                "Effect": "Discard 1 Punch attack from your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 27,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "011": {
+        "Name": "Ballista",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Combo (Punch)",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Combo Enhance",
+                "Cost": "",
+                "Effect": "This attack gets +3 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Discard 1 card",
+                "Effect": "Choose 1 card in your card pool. For the rest of this turn that card does not count towards progressive difficulty.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "012": {
+        "Name": "Chivalry",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "(4+)",
+                "Effect": "Ready 1 foundation that has not been readied this Combat Phase.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "013": {
+        "Name": "Gauntlet Flurry",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "If this attack deals damage, your next Punch attack gets +2 speed and +2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "014": {
+        "Name": "Valiant Assault",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Combo (Punch)",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "If this attack deals damage, look at the top card of your deck. You may add that card to the bottom of your deck.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Combo Enhance",
+                "Cost": "",
+                "Effect": "Draw 2 cards.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "015": {
+        "Name": "Fearless",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After your rival's attack deals damage, draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After you play a Combo ability, your attack gets +2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "016": {
+        "Name": "Made For Speed",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 0,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Form",
+                "Cost": "",
+                "Effect": "Add this card to the top of your deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "018": {
+        "Name": "Street Justice",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Air Enhance",
+                "Cost": "Commit, lose 2 vitality",
+                "Effect": "Discard 1 Punch attack from your card pool.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "If your punch attack deals damage, your next Punch attack gets +2 speed and +2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

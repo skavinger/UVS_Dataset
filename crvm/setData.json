@@ -1,0 +1,975 @@
+{
+    "001": {
+        "Name": "Vax'ildan, Cunning Thief",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Thief",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vox Machina",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "Your Ranged or Weapon attack gets +3 speed. It gets -1 speed for each other attack in your card pool.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Form",
+                "Cost": "Commit, Commit 1 foundation",
+                "Effect": "Your rival loses 1 health for each attack in your card pool. Clear 1 card from your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 22,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Vex'ahlia, Resourceful Hunter",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Hunter",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vox Machina",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Before the game begins, search your deck for 1 copy of \"Mark Your Prey\" and put it in your discard pile.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "The first copy of \"Mark Your Prey\" you play each turn does not count toward progressive difficulty.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "At the start of your Combat Phase, add 1 copy of \"Mark Your Prey\" from your discard pile to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "The next Ranged Weapon attack you try to play ignores progressive difficulty and gets +3 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 29,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "Mark Your Prey",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your card pool, your Ranged and/or Weapon attacks get +1 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "[Your attack]",
+                "Effect": "Your rival flips 1 foundation.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "[Card Pool] Mill 1",
+                "Effect": "If you milled an attack this way, your Ranged attack gets +3 damage. Otherwise, it gets +1 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Trinket",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Add this card to your card pool",
+                "Effect": "This attack gets +4 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Add this card to your card pool",
+                "Effect": "This attack gets -4 damage. If your character is Vex'ahlia, add this card to your hand after this attack resolves.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "005": {
+        "Name": "Arrows & Daggers",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Discard 1 card",
+                "Effect": "If you have 3 or more attacks in your card pool, destroy 1 rival foundation.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Vax'ildan Response",
+                "Cost": "",
+                "Effect": "If this attack deals damage, the next Weapon attack you try to play ignores progressive difficulty.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Vex'ahlia Enhance",
+                "Cost": "",
+                "Effect": "This attack gets +1 speed for each attack in your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "006": {
+        "Name": "Dagger, Dagger, Dagger",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your card pool, each of your attacks with \"Dagger\" or \"Daggers\" in its name gets -1 difficulty.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Spend 1 momentum",
+                "Effect": "Add 1 card with \"Dagger\" or \"Daggers\" in its name not named \"Dagger, Dagger, Dagger\" from your discard pile or momentum to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 6
+    },
+    "007": {
+        "Name": "Fiery Dagger Flourish",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "If this attack deals damage, destroy 1 committed rival foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 4
+    },
+    "008": {
+        "Name": "Flaming Arrow",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Powerful:",
+                "Rating": 3,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 5,
+        "Damage": 3
+    },
+    "009": {
+        "Name": "Piercing Dagger Strike",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Stun:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 5
+    },
+    "010": {
+        "Name": "Storm of Arrows",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Echo",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "You may clear 1 other Ranged Weapon attack from your card pool as though you were spending momentum to pay for this attack's Echo ability.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "011": {
+        "Name": "Venomous Dagger Slash",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "After this card leaves your card pool during the combat phase, your rival loses 1 health.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "012": {
+        "Name": "A Mother's Embrace",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious] Flip",
+                "Effect": "After you clear a card from your card pool during the Combat Phase, ready this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "013": {
+        "Name": "A Trinket for Vex",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Flip",
+                "Effect": "Your attack gets +2 damage. If you have an Ally card in your stage, it gets +3 damage instead.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Remove, spend 1 momentum",
+                "Effect": "Build 1 copy of \"Trinket\" from your discard pile.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "014": {
+        "Name": "Clasp Membership",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 0,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "death",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After you partially block an attack, gain 2 health.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "015": {
+        "Name": "Dragon Lore Expert",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "This attack gets -2 speed. If it has the Death or Fire symbol, it gets -1 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "016": {
+        "Name": "Elvish Tutoring",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Vox Machina Enhance",
+                "Cost": "Flip, commit",
+                "Effect": "Search your deck for 1 attack, reveal it, shuffle your deck, then put it on top of your deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "017": {
+        "Name": "Flirting and Flattery",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After your End Phase begins, draw 1 card. If you played 1 or more attacks this turn, discard 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "018": {
+        "Name": "Prank War",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "death",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious] Destroy",
+                "Effect": "After your rival flips a foundation as a cost, destroy it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "019": {
+        "Name": "Shameless Haggler",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Flip, discard 1 card",
+                "Effect": "Draw 1 card and gain 2 health. Then your rival may draw 1 card and gain 2 health. If they do, draw 1 card and gain 2 health.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "020": {
+        "Name": "Twins' Bond",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "death",
+            "earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "[Your turn] Remove",
+                "Effect": "Choose 1 card from each player's card pool and clear it. If the chosen cards share a card type, your attack gets +1 speed and +1 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "021": {
+        "Name": "Venture Forth from Syngorn",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Form",
+                "Cost": "Remove",
+                "Effect": "Draw 2 cards. You cannot play foundations for the rest of this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

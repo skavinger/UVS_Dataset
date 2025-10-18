@@ -1,0 +1,2217 @@
+{
+    "065": {
+        "Name": "Heaven or Hell",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "fire",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Sacrifice",
+                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Mill 5. This attack gets +1 speed and +1 damage for each attack milled this way.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Reveal 1 card from your hand. Add 1 copy of the revealed card from your discard pile to your hand.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "069": {
+        "Name": "Let's Rock!",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "chaos"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Remove",
+                "Effect": "After this card is discarded during the Combat Phase, add the top card of your deck to your momentum. Only 1 copy of this ability can be played this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "000": {
+        "Name": "Roman Cancel",
+        "Cardtype": "Token",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Remove this card at the beginning of your turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "You may play only 1 ability named \"Red\" each turn. The same is true of abilities named \"Purple,\" \"Yellow,\" and \"Blue.\"",
+                "effectPath": ""
+            },
+            {
+                "Type": "Red - Enhance",
+                "Cost": "Remove",
+                "Effect": "Change the zone of your attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Purple - Response",
+                "Cost": "Remove, spend 1 momentum",
+                "Effect": "After your blocked attack resolves, clear it from your card pool and draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Yellow - Response",
+                "Cost": "Remove, spend 1 momentum",
+                "Effect": "Before you take damage from an unblocked attack, change that attack’s damage to 3.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Blue - Form",
+                "Cost": "Remove",
+                "Effect": "Freeze 1 rival foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "016": {
+        "Name": "What Could This Be?",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_chaos"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "Use the effect below that matches the card type checked to play this attack -",
+                "effectPath": ""
+            },
+            {
+                "Type": "",
+                "Cost": "- Attack",
+                "Effect": "This attack gets +2 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "",
+                "Cost": "- Foundation",
+                "Effect": "This attack gets +2 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "",
+                "Cost": "- All other types",
+                "Effect": "Draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "019": {
+        "Name": "Sepultura",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "at_earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "If you have 2 or more momentum, this attack gets +3 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "024": {
+        "Name": "Behemoth Typhoon",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 3,
+        "Symbols": [
+            "at_order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Slam",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you commit 3 or more cards to pass the check to play this card, your rival commits 2 foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 5,
+        "Damage": 7
+    },
+    "031": {
+        "Name": "Throw Servant",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "If you have another Ally card in your card pool, draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "008": {
+        "Name": "Sol Badguy",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "chaos",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Warrior",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Your first attack each turn gains Tension.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After 1 or more cards are added to your momentum, your next check to play a Fire card gets +1.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 32,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "015": {
+        "Name": "Gun Flame Feint",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_chaos"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack is not blocked, your next check to play a card gets +1.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "053": {
+        "Name": "Tyrant Rave",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 7,
+        "Check": 3,
+        "Symbols": [
+            "chaos",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you check an attack to play this card, add the checked attack to your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "This attack gets +2 speed and +2 damage for each other attack you have played this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 5,
+        "Damage": 5
+    },
+    "062": {
+        "Name": "Find Your One Way",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Sacrifice",
+                "Effect": "Your next check to play a card gets +1 for each card in your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "006": {
+        "Name": "Nagoriyuki",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "all",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Samurai",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vampire",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "When an ability that adds 1 or more Blood counters to this card resolves, if there are 4 or more Blood counters on it, commit 1 rival card, lose 10 health, and remove all Blood counters from this card. This effect cannot reduce your health below 1.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "[Your turn]",
+                "Effect": "Add 1 Blood counter to this card. Your attack gets +4 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 32,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "025": {
+        "Name": "Kamuriyuki",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "If you have 1 or more counters on your character, this attack gains EX: 2.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 3
+    },
+    "040": {
+        "Name": "Bloodsucking Universe",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack deals damage, gain 2 health. If you have 2 or more counters on your character, gain 4 health instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 5
+    },
+    "082": {
+        "Name": "What do you fight for",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Flip",
+                "Effect": "Draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "007": {
+        "Name": "Potemkin",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "earth",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious]",
+                "Effect": "Before you take damage from an attack, if its damage is 4 or greater, it gets -1 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After your attack is completely blocked, your rival discards 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 5,
+        "Health": 32,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "045": {
+        "Name": "Hammer Fall",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Slam",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 1,
+        "Damage": 7
+    },
+    "048": {
+        "Name": "Potemkin Buster",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "earth",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Your rival cannot play response abilities during the Damage Step of this attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack is not completely blocked, it gets +6 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 6
+    },
+    "057": {
+        "Name": "Armor-Clad Faith",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After your rival plays an attack, it loses 1 keyword ability of your choice.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "081": {
+        "Name": "Walking Fortress",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Sacrifice",
+                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Your next check to play a card gets +3.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Build 1 card from your discard pile face down.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "001": {
+        "Name": "Bridget",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "air",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Hunter",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Flip 1 card in your card pool",
+                "Effect": "This attack gets +2 or -2 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "[Twice per turn]",
+                "Effect": "After your attack deals damage, add 1 face down card from your card pool to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 7,
+        "Health": 21,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "005": {
+        "Name": "May",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Pirate",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Your deck may include up to 8 copies of 1 Ally attack card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "Your attack gets +2 damage. If that attack has the same name as another card in your card pool, you may flip 1 foundation and ready it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 31,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "018": {
+        "Name": "Mr. Dolphin",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Slam",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "This attack gets +1 damage for each Ally attack in your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 2
+    },
+    "030": {
+        "Name": "Rolling Movement",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While you have a face down card in your card pool, this card’s block modifier gets -2.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "044": {
+        "Name": "Great Yamada Attack",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 8,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Powerful:",
+                "Rating": 2,
+                "effectPath": ""
+            },
+            {
+                "Name": "Slam",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card gets -2 difficulty for each Ally attack card in your card pool (max. -8).",
+                "effectPath": ""
+            },
+            {
+                "Type": "Blitz",
+                "Cost": "Flip 3 Ally attack cards in your card pool",
+                "Effect": "Your rival adds the top card of their deck to their card pool face down. It cannot leave their card pool this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 6,
+        "Damage": 6
+    },
+    "046": {
+        "Name": "Loop the Loop",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Frenzy",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Face down cards in your card pool do not count toward progressive difficulty to play this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "[Card Pool]",
+                "Effect": "At the start of the End Phase, add 1 other card from your card pool to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "077": {
+        "Name": "The Disaster of Passion",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Once per turn]",
+                "Effect": "After an attack is completely blocked, draw 1 card. Discard 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "079": {
+        "Name": "The Town Inside Me",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Once per turn]",
+                "Effect": "After you play an Ally card, gain 1 health.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Happy Chaos",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "all",
+            "chaos"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "At the start of the game, add 6 Bullet counters to this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Remove 1 Bullet counter",
+                "Effect": "Your Ranged attack gets +1 speed and +1 damage. If it deals damage, look at the top card of your deck. You may add that card to your hand or your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 33,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Ky Kiske",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "air",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Champion",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "This attack gets +1 or -1 speed. If your rival has 6 or more committed foundations, it gets +3 or -3 speed instead.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After your Charge or Ranged attack deals damage, commit or freeze 1 rival foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 30,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "011": {
+        "Name": "Stun Edge",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_air"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Stun:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "012": {
+        "Name": "At the Ready",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "at_all"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "</div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "041": {
+        "Name": "Deus Ex Machina",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "all",
+            "chaos"
+        ],
+        "Keywords": [
+            {
+                "Name": "EX:",
+                "Rating": 3,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "Discard X cards. Draw X cards and add X Bullet counters to your character. X cannot be greater than the number of cards in your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "049": {
+        "Name": "Ride the Lightning",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Your rival must commit 1 foundation as an additional cost to play response abilities during this attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack deals damage, draw 1 card. If your rival has 6 or more committed foundations, draw 2 cards instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "060": {
+        "Name": "Drift",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "When you try to block an attack with this card, return that attack to its printed speed.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 4,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "078": {
+        "Name": "The Roar of the Spark",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "This attack gains Stun",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "I-No",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "fire",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Mage",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "Change the zone of this attack. Your rival may have you seal 1 of their foundations to cancel this ability.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you change the zone of an attack, it gets +2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 7,
+        "Health": 21,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "009": {
+        "Name": "Kick Start My Heart",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 4,
+        "Symbols": [
+            "at_air"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card gets -1 difficulty if you’ve played a Roman Cancel ability this turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "",
+                "Effect": "This non-Throw attack gains Echo.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "021": {
+        "Name": "Stroke the Big Tree",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "at_fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This attack cannot be blocked by mid blocks.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 5
+    },
+    "047": {
+        "Name": "Megalomania",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "fire",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Spell",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your card pool, if there are 3 or more sealed cards in play, your other attacks get +1 speed and +1 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "Seal 1 card in your rival’s stage. Your rival may spend 2 momentum to cancel this effect.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 5,
+        "Damage": 5
+    },
+    "064": {
+        "Name": "Hard Rock Witch",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "fire",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After your rival plays a non-character ability that modifies the damage of an attack, cancel it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "033": {
+        "Name": "Faultless Defense",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your card pool, all attacks get -1 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "[Card Pool]",
+                "Effect": "After you block an attack, gain 1 health.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "034": {
+        "Name": "Psych Burst",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Remove",
+                "Effect": "After a rival plays an ability on a card in their momentum, cancel that ability and your rival spends that card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "035": {
+        "Name": "Dust Attack",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack deals 5 or more damage, this card does not count toward progressive difficulty this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 3,
+        "Damage": 5
+    },
+    "036": {
+        "Name": "Wild Assault",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you play this card, your rival spends 1 momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 5,
+        "Damage": 3
+    },
+    "037": {
+        "Name": "Cross-Up Protection",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After you block with this card, if the zone of this attack has been changed, it deals no damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "068": {
+        "Name": "Jellyfish Pirates",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Sacrifice",
+                "Effect": "Choose 1. If you have added 2 or more cards to your momentum this turn, choose both instead --",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Your rival discards 1 card if they have 3 or more cards in their hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Ready 2 foundations that have not been readied this Combat Phase.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "013": {
+        "Name": "Sickle Flash",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "at_all"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "Add 1 card from your momentum to the top of your deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "029": {
+        "Name": "Invite Hell",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "at_void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Tension",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Blitz",
+                "Cost": "",
+                "Effect": "Your rival mills 3. Remove 1 card from their discard pile.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 3
+    },
+    "055": {
+        "Name": "Alone Infection",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After your attack deals 5 or more damage, draw 1 card or add the top card of your deck to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "067": {
+        "Name": "Jealous Homunculus",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Flip",
+                "Effect": "Your rival spends 1 momentum. Only playable if your rival has more momentum than you.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "080": {
+        "Name": "Tricky Spinner",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Sacrifice",
+                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Add 1 card from your hand to your card pool face up. Add 1 card from your card pool to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Draw 1 card. Add 1 card from your hand to the top of your deck.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

@@ -1,0 +1,5067 @@
+{
+    "100": {
+        "Name": "· Rikuo ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "fire",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 1 foundation",
+                "Effect": "If your attack's zone matches the attack zone of one of your face up momentum cards, your attack gets +3 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Change the zone of your attack to any other zone.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 2 momentum",
+                "Effect": "Your opponent's unblockable attack is no longer unblockable. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 29,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "101": {
+        "Name": "Pull of the Tides",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 0,
+        "Check": 4,
+        "Symbols": [
+            "fire",
+            "good",
+            "infinity",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 1 foundation, discard 1 momentum",
+                "Effect": "Your opponent's unblockable attack is no longer unblockable.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After your opponent plays the same ability for the third time this turn, their Combat Phase ends.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "102": {
+        "Name": "Egg Clutch",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "fire",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit, reveal 1 card from your hand",
+                "Effect": "If your attack's zone matches the revealed card's attack zone, your attack gets +X speed. X equals the revealed card's speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 face up momentum",
+                "Effect": "Change the zone of your opponent's attack to any other zone.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "103": {
+        "Name": "Killer Vortex",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "fire",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack is added to your momentum from your card pool this turn, add it face up.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Your high zone attack gets +2 speed. Only playable while face up in your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "104": {
+        "Name": "Sea Rage",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "fire",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Rikuo Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 face up momentum",
+                "Effect": "If this attack deals damage, your opponent's attacks cannot become unblockable until the beginning of your next turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 7
+    },
+    "105": {
+        "Name": "Sonic Wave",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "fire",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Stun:",
+                "Rating": 2,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "When you block with this card, you may commit 1 foundation and change this card's block zone to any other zone.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 face up momentum",
+                "Effect": "If this attack's zone matches the attack zone of the discarded momentum card, this attack gets +3 speed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "106": {
+        "Name": "Bounty of the Sea",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "fire",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If your attack's zone matches the attack zone of one of your face up momentum, your attack gets +3 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If this attack is added to your momentum from your card pool this turn, add it face up.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "107": {
+        "Name": "Empire's Ruin",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "fire",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 1 foundation",
+                "Effect": "Your attack gets +2 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit, commit 2 foundations",
+                "Effect": "Your opponent's unblockable attack is no longer unblockable.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "108": {
+        "Name": "King of the Sea",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "fire",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If you play a block this Block Step, you may change your block's zone to any other zone.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "109": {
+        "Name": "· Sasquatch ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit 1 foundation",
+                "Effect": "When an ability would increase the damage of an attack by 2 or more, cancel that ability's effects.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you take damage from an attack that dealt more than double its printed damage, play any attack from your hand (no control check necessary).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 5,
+        "Health": 35,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "110": {
+        "Name": "Jumping In",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit your character card",
+                "Effect": "After one of your opponent's attacks deals 6 or more damage, choose an attack in your discard pile and play it. If that attack deals damage, your opponent may not play abilities that grant damage bonuses for the rest of this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "111": {
+        "Name": "Stone Mail",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Discard 1 card",
+                "Effect": "After your opponent plays an enhance ability that grants a damage bonus, negate that ability's effects.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "112": {
+        "Name": "Big Cyclone",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 7,
+        "Check": 2,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this card is discarded due to your opponent's card effect, play this attack (no control check necessary).While this card is in your card pool, your opponent may not play abilities that grant damage bonuses.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 10
+    },
+    "113": {
+        "Name": "Big Gulp",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack dealt damage this turn, after your opponent plays an attack, you may discard this attack from your card pool to discard their attack from their card pool and cancel its effects.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "114": {
+        "Name": "ES Super Whirlwind Kick",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "fire",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Sasquatch Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Only playable during your opponent's turn. E",
+                "Cost": "",
+                "Effect": "You may play damage bonus enhances printed on any of your opponent's ready or committed cards, paying no costs.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 4,
+        "Damage": 6
+    },
+    "115": {
+        "Name": "Bigfoot Tribe",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Take 1 attack from your hand and attach it to this card face up.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After an opponent's attack deals more than it's printed damage, play 1 attack attached to this card as a Reversal.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "116": {
+        "Name": "Bunches of Bananas",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "earth",
+            "fire",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If your opponent has given their attack a damage bonus this Enhance Step, take the top card of your deck and attach it to this card face up.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit, discard 1 card attached to this card",
+                "Effect": "Your attack gets +X damage. X equals the discarded card's control.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "117": {
+        "Name": "Signs of Friendship",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "earth",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Attach 1 card from your discard pile and to this card face up. R",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "118": {
+        "Name": "· Victor·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "earth",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Once per turn, until the end of your next turn, after a player plays a non-attack card they choose to either commit 1 card in their staging area or discard 1 card from their hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Each player discards the top 4 cards of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 5,
+        "Health": 34,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "119": {
+        "Name": "Dense Mass",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Until the end of your next turn, after a player resolves a form they commit 1 of their foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "120": {
+        "Name": "Gerdenheim's Research Notes",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "earth",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Each player discards the top 4 cards of their deck.Victor E",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 4,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "121": {
+        "Name": "Gravitation Knuckle",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack is not blocked, each player discards the top 3 cards of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "122": {
+        "Name": "Gyro Crush",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Multiple:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, until the end of your next turn, players commit 1 of their foundations after playing a card from their hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "123": {
+        "Name": "Thunder Break",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 9,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Victor Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, each player discards the top 6 cards of their deck and until the beginning of your next turn, your opponent commits 1 of their foundations after they play a non-attack card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 6,
+        "Damage": 8
+    },
+    "124": {
+        "Name": "Mockery of Life",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If your attack deals damage, each player discards the top 2 cards of their deck.Victor First E",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "125": {
+        "Name": "Search for Acceptance",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After an ability causes each player to discard any number of cards from the top of their decks, you discard 1 additional card from the top of your deck and your opponent discards 2 additional cards from the top of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "126": {
+        "Name": "Stitched Together",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "Commit, discard 2 momentum",
+                "Effect": "Until the beginning of your next turn, after a player resolves a form they either commit 1 card in their staging area, or reveal their hand and discard 1 card (their choice).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "001": {
+        "Name": "· B.B. Hood ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent plays a non-foundation card, add 1 card of the same type from your discard pile to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 card",
+                "Effect": "If the discarded card either shares at least 2 resource symbols with your opponent's attack or matches at least 1 keyword with your opponent's attack, that attack gets -X damage. X equals 6 minus the discarded card's control.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 25,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Dark Heart",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "Before your opponent would draw or add any number of cards to their hand during the Combat Phase, they do not draw or add any cards to their hand. Add X attacks from your discard pile to your hand. X equals the number of cards your opponent would have drawn or added.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "Basket of Tricks",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Add 1 attack with a control of 2 or less from your discard pile to your hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Your opponent's split attack gets -X damage. X equals the printed damage of the attack.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Cheer and Fire",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "all",
+            "earth",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 2 foundations",
+                "Effect": "Until the end of the turn, while this card is in your card pool, after your opponent plays an attack as a Reversal, that attack's damage is reduced to 0.B.B. Hood E Commit 2 foundations",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 3
+    },
+    "005": {
+        "Name": "Cool Hunting",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "B.B. Hood Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Multiple:",
+                "Rating": 2,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "Whenever this attack or one of its Multiple copies deals damage, you may Add 1 non-foundation card from your discard pile to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "006": {
+        "Name": "Tricky Basket",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "If this attack deals damage, choose 1 card type in your opponent's card pool. Add 1 card of the chosen type from your discard pile to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 2,
+        "Damage": 3
+    },
+    "007": {
+        "Name": "Born to Hunt",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit, discard 1 momentum",
+                "Effect": "After your opponent plays a non-foundation card, add 1 card of the same type from your discard pile to your hand. If your character is B.B. Hood, add 2 cards of the same type to your hand instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "008": {
+        "Name": "Cute and Innocent",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "earth",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Your opponent's attack gets -2 damage (minimum 1). If your opponent's character is the opposite gender of your character, their attack gets -4 damage (minimum 1) instead. Only playable if your staging area has at least 1 of each card type that your opponent has in their staging area.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "009": {
+        "Name": "Mercenary",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Choose 1 keyword on your opponent's attack. Add 1 attack card with a matching keyword from your discard pile to your hand. Only playable during your opponent's attack.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "010": {
+        "Name": "· Bishamon ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Once per turn, discard the top 5 cards of your opponent's deck.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "If your opponent plays any enhance abilities during this Enhance Step, the control check to play your next card this turn is successful (no control check necessary). If you have already resolved this ability this turn, commit this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 5,
+        "Health": 33,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "011": {
+        "Name": "Roppodo",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "Desperation:",
+                "Rating": 3,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If your opponent does not play any enhance abilities during this Enhance Step, any control checks made to block this attack get -3.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "012": {
+        "Name": "Hannya and Kien",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "evil",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Bishamon Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit 1 foundation",
+                "Effect": "After your opponent plays an enhance ability, attach the top card of your deck to this card face down.",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Commit, discard all cards attached to this card",
+                "Effect": "Either your next control check gets +X or you discard the top X cards of your opponent's deck. X equals the number of cards discarded for the cost of this ability.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "013": {
+        "Name": "Gedan Kassobaki",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "evil",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Discard the top X cards of your opponent's deck. This attack gets -X damage. X may not be more than this attack's damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "014": {
+        "Name": "Hane Ha",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "evil",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, discard the top 4 cards of your opponent's deck. If they played any enhance abilities during this Enhance Step, discard the top 8 cards instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "015": {
+        "Name": "Kirisute Gomen",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 3,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, your next control check this turn gets +X. X equals the number of enhances your opponent played during this attack.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 6
+    },
+    "016": {
+        "Name": "A Moment Too Late",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "evil",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent fails a control check, discard the top 2 cards of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "017": {
+        "Name": "Contemplation",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "evil",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Reveal the top card of your opponent's deck. If the revealed card is an attack, add it to your opponent's hand. If the revealed card is not an attack, discard it and you may ready this foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "018": {
+        "Name": "Countless Days of Killing",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After an attack deals damage and if your opponent played at least 1 enhance during the Enhance Step, your control checks get +2 for the rest of this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "019": {
+        "Name": "· Demitri ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If this attack deals damage, gain X vitality. X equals the amount of damage dealt. If your opponent's character has 'BT",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit, discard X momentum",
+                "Effect": "If this attack deals damage, your opponent loses X vitality and you may ready 1 of your foundations that you have not readied this Combat Phase.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 30,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "020": {
+        "Name": "Midnight Bliss",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "Your opponent's character becomes 'G",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "021": {
+        "Name": "Zeltzereich Castle",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Terrain",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "During your Ready Phase, your opponent loses 1 vitality.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent loses vitality due to one of your attacks or card effects, gain X vitality. X equals the amount of vitality they lost.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "022": {
+        "Name": "Bat Spin",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "If this attack deals damage, your opponent loses 2 vitality and you gain 2 vitality.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Demitri E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, your opponent loses 2 vitality and you gain 3 vitality. Only playable if your opponent's character is 'G: F'.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "023": {
+        "Name": "Chaos Flare",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Lose X vitality",
+                "Effect": "If this attack deals damage, the next attack you play this turn gets +X damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "024": {
+        "Name": "Demon Blast",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 7,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Demitri Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 2 foundations",
+                "Effect": "If this attack deals damage, gain X vitality. X equals the amount of vitality your opponent has lost this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 9
+    },
+    "025": {
+        "Name": "Blood of the Innocent",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If this attack deals damage, your opponent loses 1 vitality. If your opponent's character is 'G",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "026": {
+        "Name": "No Weakness",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Destroy this card",
+                "Effect": "Before you take damage from your opponent's attack, gain X vitality. X equals double your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Gain 2 vitality. Only playable if your opponent's character is 'G",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "027": {
+        "Name": "Power Hungry",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit, discard 2 momentum",
+                "Effect": "If your attack is not blocked, your opponent loses 3 vitality and you gain 2 vitality.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "028": {
+        "Name": "· Donovan ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Discard 1 card",
+                "Effect": "When an opponent's ability would make you lose vitality, cancel that ability's effects.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit 1 foundation",
+                "Effect": "After a player plays their second foundation of the turn, they may not play any more foundations this turn. Either player may play this ability. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 29,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "029": {
+        "Name": "Into the Iron Maiden",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "",
+                "Effect": "Until the beginning of your next turn, all foundations are added to their owner's staging area from their card pool committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "030": {
+        "Name": "Dhylec",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Donovan Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
+                "Cost": "",
+                "Effect": "- Weapon",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "When you are losing vitality that is not due to an attack's damage, reduce that loss by 2. During a player's End Phase, if that player did not attempt to play a foundation this turn, commit all of that player's foundations.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "031": {
+        "Name": "Ifreet Sword",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Desperation:",
+                "Rating": 5,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack is added to your momentum from your card pool this turn, add it face up.First F Discard this card from your momentum: Until the beginning of your next turn, players may not play more than X foundations per turn. X equals your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "032": {
+        "Name": "Katana O Rakurai",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your card pool, your opponent may not play abilities that make you lose vitality.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "033": {
+        "Name": "Press of Death",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 1,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, add it to your staging area and place 3 Ice tokens on it. Remove 1 Ice token from this card at the beginning of each turn. If this card has 0 Ice tokens on it, discard it from your staging area. While this card is in your staging area, players may not play abilities printed on foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "034": {
+        "Name": "Buddhist Devotion",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First F",
+                "Cost": "Destroy this foundation",
+                "Effect": "Each player may add up to 2 foundations they could normally play from their hand to their staging area.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "035": {
+        "Name": "Containing the Power",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you lose vitality due to one of your opponent's card effects, draw X cards. X equals the vitality you lost.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "036": {
+        "Name": "Cursed Blood",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent plays a foundation, discard the top card of your deck. If the discarded card is a foundation, add it to your staging area committed. If not, discard 1 foundation from your opponent's card pool and destroy this foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "037": {
+        "Name": "· Felicia ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "Before you play your fourth card this turn, if you have a run of ascending sequential control values 3 cards long (such as 1,2,3 or 3,4,5) in your card pool, the control check for that card is successful (no control check necessary).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "Play 1 enhance printed on a card in any staging area as though it were printed on this character.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 21,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "038": {
+        "Name": "Please Help Me",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Discard 1 character",
+                "Effect": "For the rest of the turn when you attempt to play a card that will create an ascending or descending sequential run in the control values of cards in your card pool that is at least 3 cards long, you do not need to check to play that card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "039": {
+        "Name": "Ball of Yarn",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Felicia Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Discard 1 momentum",
+                "Effect": "Once per turn, choose a form printed on a card in your opponent's staging area. Play that form as though it where printed on this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "040": {
+        "Name": "Hellcat",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 1,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Felicia Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Multiple:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up). If the last 4 cards in your card pool have a descending sequential run of control values from 5 to 2, the control check for this card is successful (no control check necessary).        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 8
+    },
+    "041": {
+        "Name": "Rolling Buckler",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Powerful:",
+                "Rating": 2,
+                "effectPath": ""
+            },
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "Play 1 enhance printed on a foundation in your opponent's staging area as though it where printed on this card, paying no costs.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 4,
+        "Damage": 3
+    },
+    "042": {
+        "Name": "Sand Splash",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Stun:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Before you play this card, if it would create a run of ascending or descending sequential control values at least 3 cards long (such as 1,2,3 or 6,5,4,3) in your card pool, the control check for this card is successful (no control check necessary).        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 3
+    },
+    "043": {
+        "Name": "A Singing and Dancing Musical Sister",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 3 momentum",
+                "Effect": "Choose a staging area. For the rest of this turn, you may play any abilities printed on any card in that staging area as though they were printed on this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "044": {
+        "Name": "Purity",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If you have a run of ascending or descending sequential control values at least 3 cards long (such as 1,2,3 or 5,4,3,2) in your card pool, discard the first or last card of the run from your card pool.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "045": {
+        "Name": "Star Power",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Discard 2 momentum",
+                "Effect": "When a response printed on a card in any staging area could be triggered, play that response as though it was printed on this foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "046": {
+        "Name": "· J. Talbain ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "chaos",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "At the beginning of your Combat Phase remove all Moon tokens on this character, if you did not remove any tokens add 1 Moon token to this character. While this character has at least 1 Moon token on it, your maximum vitality is 33 and when you are taking damage, reduce that damage by 2 (minimum 1).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "If your attack deals damage, gain 5 vitality. Only playable while this character has a moon token on it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 28,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "047": {
+        "Name": "Full Moon",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, gain 3 vitality. If you have at least 1 Moon token on your character, gain 5 vitality instead.J. Talbain R Discard 1 momentum: Before you remove a Moon token from your character, leave it on your character instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "048": {
+        "Name": "Phases of the Moon",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "earth",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While you have at least 1 Moon token on your character, when you take damage, reduce that damage by 2 (minimum 1).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Your opponent's non-weapon attack gets -2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "049": {
+        "Name": "Chijo Beast Rush",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "all",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "First E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, gain 3 vitality. If there is at least 1 Moon token on your character, gain 6 vitality instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "050": {
+        "Name": "Dragon Cannon",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 8,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "chaos",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "J. Talbain Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, gain X vitality. X equals your character's hand size minus the number of cards in your hand (to a minimum 0).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 6,
+        "Damage": 10
+    },
+    "051": {
+        "Name": "Moment Slice",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "all",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack is not blocked, gain 2 vitality.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 4
+    },
+    "052": {
+        "Name": "Loner",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "earth",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If you have at least 1 Moon token on your character, your opponent's attacks get -1 damage (minimum 1).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "This attack gets -1 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "053": {
+        "Name": "Nobility and Pride",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Gain 3 vitality. If you have at least 1 Moon token on your character, gain X vitality instead. X equals your character's hand size minus the number of cards in your hand (to a minimum of 0).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "054": {
+        "Name": "The Beast Within",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "all",
+            "earth",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If you have at least 1 Moon token on your character, after your opponent plays an attack you gain 2 vitality.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "This attack gets -2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "055": {
+        "Name": "· Lilith ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "chaos",
+            "death",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After your opponent plays an ability printed on their character card, discard the top 3 cards of their deck.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Add 2 cards from your discard pile to your hand. Only playable during your opponent's turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 7,
+        "Health": 19,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "056": {
+        "Name": "Lure the Enemy",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After your opponent plays an ability printed on their character, discard the top X cards of their deck. X equals double your opponent's hand size.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "057": {
+        "Name": "Primitive Instinct",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "Before blocking an attack, choose 1 block in your discard pile and play it as though it were in your hand. Remove that block from the game at the end of this Combat Phase.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 2,
+        "Damage": 2
+    },
+    "058": {
+        "Name": "Luminous Illusion",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack played as a Reversal deals damage, discard the top 5 cards of your opponent's deck. If any copies of the attack you played this attack as a Reversal to are discarded, discard an additional 5 cards from the top of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 2,
+        "Damage": 3
+    },
+    "059": {
+        "Name": "Mystic Arrow",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Reversal",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, discard the top 2 cards of your opponent's deck.Lilith/Morrigan E: If this attack played as a Reversal deals damage, add any cards you played as blocks this turn from your card pool to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "060": {
+        "Name": "Shining Blade",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 9,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Desperation:",
+                "Rating": 7,
+                "effectPath": ""
+            },
+            {
+                "Name": "Lilith/Morrigan Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, discard X cards from the top of your opponent's deck. If your opponent's character is 'G: M', discard cards from the top of their deck equal to 2 times X instead. X equals your opponent's character's hand size.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "061": {
+        "Name": "Cheerful",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Discard the top card of your opponent's deck. If the discarded card is a character, this attack is completely blocked during the Block Step.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "062": {
+        "Name": "Free Will",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Destroy this card",
+                "Effect": "Add 1 card from your discard pile to your hand. Only playable during your opponent's turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "063": {
+        "Name": "Self Aware",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent cycles their deck, ready any 1 other card.Lilith R Destroy this card",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "064": {
+        "Name": "· Lord Raptor ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "chaos",
+            "death",
+            "earth"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this character is ready, after a player plays a form ability, they commit 1 of their foundations.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit, commit 3 foundations",
+                "Effect": "Before your Draw Step, switch your hand with your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 20,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "065": {
+        "Name": "Final Performance",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Discard all of your momentum. Add X cards from your discard pile to your momentum. X equals your opponent's momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "066": {
+        "Name": "A Chapter of Tolgaido",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Discard a player's entire momentum, then add X cards from that player's discard pile to their momentum. X equals the number of momentum discarded by this ability.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "067": {
+        "Name": "Death Phrase",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 2,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, your opponent may not play any form abilities printed on foundations or assets during their next turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "068": {
+        "Name": "Evil Scream",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "chaos",
+            "death",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this card is added to your momentum from your card pool this turn, add it face up.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Discard 1 momentum",
+                "Effect": "After your opponent plays a form ability, they lose X vitality. X equals their momentum. Only playable while this card is face up in your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "069": {
+        "Name": "Ultimate Undead",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 8,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "Lord Raptor Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, add all cards in your momentum to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "070": {
+        "Name": "God of Metal",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Each player adds 2 cards from their momentum to their hand and then adds 2 cards from their hand to their momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "071": {
+        "Name": "Instant Success",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent plays a form ability on a card in their staging area, destroy that card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "072": {
+        "Name": "Oral Dead",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "death",
+            "evil"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After a form ability printed on a foundation or asset is played, cancel that ability's effects.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "073": {
+        "Name": "· Morrigan ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit X foundations",
+                "Effect": "If this attack deals damage, you gain X vitality. For each point this would take you above your maximum vitality, your opponent loses 1 vitality. Only playable if you have less than your maximum vitality.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Discard 1 card",
+                "Effect": "When your opponent is gaining vitality, reduce that gain to 0.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 27,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "074": {
+        "Name": "Look into Dreams",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Reveal 1 random card in your opponent's hand. You gain X vitality. X equals the revealed card's control. For each vitality this would take you above your maximum vitality, your opponent loses 1 vitality. Only playable if you have less than your maximum vitality.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "075": {
+        "Name": "Seductive Beauty",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "good",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Morrigan Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "When your opponent would gain vitality, cancel that vitality gain.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "076": {
+        "Name": "Cryptic Needle",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 2,
+        "Symbols": [
+            "chaos",
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Weapon",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit 1 foundation",
+                "Effect": "Your opponent may not gain vitality during this Enhance Step.Lilith/Morrigan E",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 0,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 4
+    },
+    "077": {
+        "Name": "Valkyrie Turn",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "This attack gets -X damage. You gain X vitality and this Enhance Step ends. X equals the amount of damage reduced by this ability. For each vitality this would take you above your maximum vitality, your opponent loses 1 vitality. X may not be greater than 6.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "078": {
+        "Name": "Vector Drain",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 7,
+        "Check": 2,
+        "Symbols": [
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Desperation:",
+                "Rating": 4,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit X foundations",
+                "Effect": "Gain X vitality. For each point this would take you above your maximum vitality, this attack gets +1 damage. X cannot be greater than 7.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 2,
+        "Damage": 7
+    },
+    "079": {
+        "Name": "Powers Torn",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "death",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Destroy this foundation",
+                "Effect": "After your opponent gains vitality due to one of their card effects, destroy/discard that card. If your character is Lilith, discard X cards from the top of your opponent's deck. If your character is Morrigan, your opponent loses X vitality. X equals their card's control.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "080": {
+        "Name": "S Class Noble",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "When your opponent would gain vitality, if they have more vitality than you, cancel that vitality gain.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "081": {
+        "Name": "Successor to the Throne",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent plays an ability to gain vitality that is printed on a card in their staging area, commit all copies of that card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "082": {
+        "Name": "· Pyron ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "death",
+            "evil",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you successfully make a control check to play a Fire card, your opponent discards X cards. X equals the difference between the check and the <img src=\"images/icons/fire.png?20230902\" alt=\"fire\" /> card's control. Only playable if you have less vitality than your opponent.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Your attack gets +1 damage for every 5 cards in your removed from the game pile.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 26,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "083": {
+        "Name": "Lying in Wait",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "earth",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "For the rest of this turn, your attacks get +3 damage for every 10 cards in all of the removed from the game piles (count the total combined number of cards).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "084": {
+        "Name": "Army of Huitzil",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "earth",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Pyron Only",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Place 1 Time token on this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "For the rest of this turn, your attacks get +X damage. X equals the number of Time tokens on this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "085": {
+        "Name": "Kuchu Soul Smasher",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Remove 1 card in your discard pile from the game",
+                "Effect": "This attack gets +X damage. X equals either the removed card's difficulty or control (whichever is lower).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "086": {
+        "Name": "Orbital Blaze",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 12,
+        "Check": 1,
+        "Symbols": [
+            "death",
+            "fire",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Pyron Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, destroy all foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 6,
+        "Damage": 12
+    },
+    "087": {
+        "Name": "Zodiac Fire",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "earth",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If you have more cards removed from the game than your opponent, this attack gets +2 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 3,
+        "Damage": 4
+    },
+    "088": {
+        "Name": "Consumer of Planets",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "death",
+            "earth",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Your Earth or Fire attack gets +4 damage. If this attack is blocked, destroy this foundation.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "089": {
+        "Name": "Cosmic Being",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "death",
+            "evil",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you successfully make a control check to play a Fire card, discard the top 2 cards of your opponent's deck. If you have less vitality than your opponent, you may destroy this foundation to discard the top 8 cards of their deck instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "090": {
+        "Name": "Pillar of Flame",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "death",
+            "evil",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Destroy this foundation",
+                "Effect": "For the rest of this turn, after you play a Fire card, discard the top 2 cards of your opponent's deck. If your character is Pyron, discard the top 4 cards instead. Only playable if you have less vitality than your opponent.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "091": {
+        "Name": "· Q-Bee ·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "death",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Place 1 Soul token on this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If your character has X or more Soul tokens on it, discard 2 cards from the top of your opponent's deck for each Soul token on this card. X equals your opponent's vitality. Remove all soul tokens on this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After your opponent cycles their deck, place 1 Soul token on this card. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 20,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "092": {
+        "Name": "Deadly Swarm",
+        "Cardtype": "Action",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "death",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After you add any number of cards to your momentum, add this card to your momentum. If your character is Q-bee, place 1 Soul token on your character.Q-Bee E Remove X Soul tokens from your character: Your opponent cycles their deck. X equals the number of cards in your opponent's removed from the game pile (minimum 5).",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "093": {
+        "Name": "Soul Hive",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit",
+                "Effect": "Add 1 card from your hand to your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If this attack deals damage and you have another copy of this card in your staging area and X or more Soul tokens on your character, you win the game. X equals double your opponent's vitality. Only playable during your turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Q-bee E",
+                "Cost": "Commit",
+                "Effect": "If this attack deals damage and there are no Soul tokens on this card, place 3 Soul tokens on this card. If there are 1 or more Soul tokens on this card, then move 1 Soul token to your character instead.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "094": {
+        "Name": "+B",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 2,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "Q-bee Only",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "If this attack deals damage, you may add any number of cards from your hand to your momentum. Discard any number of momentum. For each momentum discarded this way, place 1 Soul token on your character.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 8
+    },
+    "095": {
+        "Name": "C->R",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Discard 1 momentum",
+                "Effect": "If this attack deals damage, each player discards the top 3 cards of their deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 3,
+        "Damage": 3
+    },
+    "096": {
+        "Name": "Delta A",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "death",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If this attack is added to your momentum from your card pool, you may remove it from the game instead. If you do, discard the top 3 cards of your opponent's deck.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 2 momentum",
+                "Effect": "If this attack deals damage, discard the top 4 cards of your opponent's deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 3,
+        "Damage": 5
+    },
+    "097": {
+        "Name": "Predator's Instincts",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent adds any number of cards to their momentum, add up to 2 cards from your hand to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "098": {
+        "Name": "Queen of the Hive",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "death",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Commit, discard 2 momentum",
+                "Effect": "Discard the top 3 cards of your opponent's deck.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "099": {
+        "Name": "Sustained by Souls",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "If this attack deals damage, either add 1 card from your hand to your momentum or place 1 Soul token on your character.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

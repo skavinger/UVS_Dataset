@@ -1,0 +1,1117 @@
+{
+    "102": {
+        "Name": "·Jack Lambourne·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "earth",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "(X+)",
+                "Effect": "After your throw attack deals damage, add 1 throw card with difficulty X or less from your discard pile to your hand. X equals the damage dealt. Only playable twice per turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "(5+)",
+                "Effect": "Your throw attack gets +X damage (maximum 4). X equals the number of throw cards in your discard pile.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 28,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "001": {
+        "Name": "Winners Never Quit",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "earth",
+            "fire",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After you block with this card, add 1 non-reversal attack from your discard pile to your hand. Remove this card from the game during the End Phase.",
+                "effectPath": ""
+            },
+            {
+                "Type": "First E",
+                "Cost": "",
+                "Effect": "This attack gets +X damage. X equals your opponent's hand size minus 3.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Lion Stance",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "[Once per turn]",
+                "Effect": "Choose 1 non-unique foundation in your discard pile that you could normally play. Until the beginning of your next turn, this asset gains all abilities and keywords on the chosen foundation. Treat this asset as a copy of the foundation for the purposes of paying the cost of those abilities.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After your opponent's attack deals damage, gain X vitality. X equals the damage dealt minus that attack's printed damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "Millennium Games and Hobbies",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "earth",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 1,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Discard X momentum, remove X foundations from the game",
+                "Effect": "After this card is played, discard X (non-starting) character cards from your opponent's staging area.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Remove the top card of your deck from the game",
+                "Effect": "If the removed card is a foundation, this attack gets +2 damage. If the removed card is an attack, change the zone of this attack to any other zone. If the removed card is a non-attack, non-foundation card, lose 2 vitality.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Red Triangle Green Triangle",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "death",
+            "evil",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "All E",
+                "Cost": "Commit",
+                "Effect": "Draw 1 card from the top or bottom of your deck.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Death E",
+                "Cost": "Commit, commit 1 foundation",
+                "Effect": "Choose 1 foundation. That card is considered to have a blank text box for the rest of the turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Evil R",
+                "Cost": "Commit",
+                "Effect": "After a control check to play an attack is made, that check gets -2. Failing this control check does not end the Combat Phase.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Water E",
+                "Cost": "Commit",
+                "Effect": "Ready 1 foundation with a difficulty 2 or less that has not been readied this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "005": {
+        "Name": "…Surprise! Here's a Napkin...",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "good",
+            "order",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "This card ignores progressive difficulty when not being played as a block. After you play this card, your next control check this turn gets +2.",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Add this card to your hand",
+                "Effect": "Your next control check to play an action or attack this turn gets +2. If that check is for an attack, that attack gets +3 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit, commit 1 foundation",
+                "Effect": "After you block an attack, draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "006": {
+        "Name": "Zealot Rush",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "evil",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
+                "Cost": "",
+                "Effect": "- Weapon",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "After this card is played (not as a block), add it to your staging area committed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Remove this card from the game",
+                "Effect": "Ready your character. If it is your opponent's turn, you may not play response abilities on your character card for the rest of this Combat Phase.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After this card is added to your staging area, draw 1 card. If your character is Garett Brett, Matt Kohls, or Kirk Polka you may add the top card of your deck to your momentum instead. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "007": {
+        "Name": "·Garett Brett·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "death",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Discard 1 card (4+)",
+                "Effect": "Once per turn, after a player plays a non-attack card, add 1 foundation with a difficulty of 3 or less that shares a resource symbol with your character from your hand to your staging area committed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After you discard a card, draw 1 card. If you have played this ability at least twice this turn, commit this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Discard 1 non-character card",
+                "Effect": "Your attack gets +X speed. X equals the difficulty of the card discarded to pay the cost of this ability.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 27,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "008": {
+        "Name": "·Tim Keefe·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "chaos",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "",
+                "Effect": "After the Ready Phase, add 1 momentum to your hand. If you did, add 1 card from your hand to your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "First E",
+                "Cost": "Destroy 1 foundation",
+                "Effect": "This attack gets +1 damage and +1 speed. Choose 3 of your opponent's foundations. Those cards may not be committed in order to pass control checks for the rest of this turn. Only playable during your turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 20,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "009": {
+        "Name": "·Keenan Meadows·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "evil",
+            "order",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Choose one non-foundation card in your card pool. That card does not count towards progressive difficulty for the rest of this turn. Only playable once per turn.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you completely block an attack, remove the card you blocked with from the game. Then search your deck for a copy of the removed card and add it to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 19,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "010": {
+        "Name": "··Paul Bittner··",
+        "Cardtype": "Character",
+        "Legality": [
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "death",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "You may not play attacks during the first turn of the game.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Discard 1 card",
+                "Effect": "After you make a control check to play a card on your turn, that check gets +2. Only playable twice per turn. Playable while committed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Name a foundation. All copies of that card are considered to have a blank text box until the end of this turn.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 18,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "011": {
+        "Name": "·Phil Birch·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "all",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "(4+)",
+                "Effect": "Name a card type. Your opponent reveals the top card of their deck. If it is a card of the named card type, this attack gets +2 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "[Your turn]",
+                "Effect": "Once per turn, after you play a card whose control equals the control of the preceding card in your card pool, add 1 attack with a printed control of 3 from your discard pile to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 6,
+        "Health": 26,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "012": {
+        "Name": "Living with Determination",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "evil",
+            "good"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "R",
+                "Cost": "Commit",
+                "Effect": "After you add any number of cards to your momentum during the Combat Phase, look at your opponents hand.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Add this card to your momentum. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "013": {
+        "Name": "A Matter of Heads and Tails",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "evil",
+            "order",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Commit",
+                "Effect": "Your opponent may not play an attack as a reversal to this attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Destroy this foundation",
+                "Effect": "Before the Block Step, reduce this attack's speed to 0. Only playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "014": {
+        "Name": "·Ben Shoemaker·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "Destroy 1 foundation",
+                "Effect": "Your opponent discards 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "(5+)",
+                "Effect": "After your opponent discards 1 or more cards due to your effect, add the top card of your discard pile to your momentum. Only playable during your attack.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 19,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "016": {
+        "Name": "Last Ditch Gamble",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "chaos",
+            "death",
+            "fire"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Destroy this foundation, discard a card from your card pool",
+                "Effect": "Draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "015": {
+        "Name": "Cataclysmic Force",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "chaos",
+            "death",
+            "earth",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "F",
+                "Cost": "Destroy this foundation",
+                "Effect": "Destroy 1 of your opponent's foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "021": {
+        "Name": "Relinquishing the Championship",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "evil",
+            "good",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "",
+                "Effect": "Remove this foundation from the game, discard 1 momentum: Add 1 card from your discard pile to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 4,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "022": {
+        "Name": "Legacy of the Apple!",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "good",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "(4+)",
+                "Effect": "Before your opponent's Ready Step begins, choose 1 of their committed foundations. That card does not ready during this Ready Step.",
+                "effectPath": ""
+            },
+            {
+                "Type": "E",
+                "Cost": "Remove 1 ready foundation from the game, Lose X vitality",
+                "Effect": "Add the top card of your deck to your momentum. X equals the number of times you have played this ability this turn. Playable by either player.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "023": {
+        "Name": "·Mike Hardiman·",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 6,
+        "Check": 6,
+        "Symbols": [
+            "good",
+            "order",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "E",
+                "Cost": "",
+                "Effect": "Commit 1 foundation in each player's staging area. Each of those cards do not ready during their owner's next Ready Step. If you have played this ability at least twice this turn, commit this card. Only playable during your attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit, discard 1 momentum",
+                "Effect": "After your opponent's Ready Phase, they lose 2 vitality. Only playable if they have 2 or more committed foundation in their staging area.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 0,
+        "HandSize": 7,
+        "Health": 19,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "024": {
+        "Name": "The Ninjas of Love and Justice",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "chaos",
+            "fire",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While this card is in your staging area, whenever an attack leaves a player's card pool due to their effect, that player commits 1 of their foundations.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Remove 1 card in your discard pile from the game",
+                "Effect": "After your Ready Phase, search your deck for 1 copy of the removed card, reveal it and add it to your hand. Playable by either player. Playable while committed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "026": {
+        "Name": "Nailed It!!!",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "all",
+            "earth",
+            "order"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "(4+)",
+                "Effect": "After your opponent plays an ability printed on a card in their staging area for the second time or greater this turn, draw 1 card or ready 1 foundation that has not been readied this Combat phase.",
+                "effectPath": ""
+            },
+            {
+                "Type": "F",
+                "Cost": "Commit, commit 1 foundation",
+                "Effect": "Commit 1 of your opponent's assets or foundations.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "028": {
+        "Name": "Making a Killing",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Retro",
+            "Legacy"
+        ],
+        "Difficulty": 3,
+        "Check": 5,
+        "Symbols": [
+            "all",
+            "order",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Commit 1 other foundation",
+                "Effect": "After you draw 1 or more cards due to another non-character effect, draw 1 card. If this ability has been played at least twice this turn, commit this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "R",
+                "Cost": "Remove, discard X Cards",
+                "Effect": "Before you take damage, reduce that damage by X times 2.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    }
+}

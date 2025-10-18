@@ -1,0 +1,1024 @@
+{
+    "001": {
+        "Name": "Izuku Midoriya, On the Move",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "air",
+            "good",
+            "life",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Form",
+                "Cost": "Commit X foundations",
+                "Effect": "Transform this character. X equals 3 minus the number of face down cards in your card pool (X may equal 0).",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Commit 1 foundation",
+                "Effect": "This attack gets +3 or -3 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Commit, Discard 1 Vestige card",
+                "Effect": "Before this attack's Block Step, reduce its damage to 1.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 29,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "001B": {
+        "Name": "Izuku Midoriya, Quirks Unleashed",
+        "Cardtype": "Character",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": null,
+        "Check": null,
+        "Symbols": [
+            "air",
+            "good",
+            "life",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Form",
+                "Cost": "",
+                "Effect": "Transform this character.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Form",
+                "Cost": "Commit 2 foundations",
+                "Effect": "Your next attack gets +3 speed and +3 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After your rival plays an attack, reduce its speed to 0 and draw 1 card. Skip that attack's Enhance Step.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "",
+        "BlockMod": null,
+        "HandSize": 6,
+        "Health": 29,
+        "Stamina": null,
+        "AttackZone": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "002": {
+        "Name": "Wielding One For All",
+        "Cardtype": "Action",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Form",
+                "Cost": "Remove",
+                "Effect": "Unflip 1 foundation in your stage. If that card has Vestige, draw 1 card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Remove",
+                "Effect": "Choose X options. X equals half the number of differently named Vestige cards in your stage, rounded down. You may choose the same option multiple times.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Your attack gets +3 speed.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Your attack gets +3 damage.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "- Draw 1 card.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "003": {
+        "Name": "Tattered Costume",
+        "Cardtype": "Asset",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Sacrifice",
+                "Effect": "After your rival plays an ability on an action card or a keyword ability on an attack card, cancel that ability. Draw 1 card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "004": {
+        "Name": "Bullet Kick",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "good",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Powerful:",
+                "Rating": 3,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Face down cards in your card pool do not count toward progressive difficulty to play this card.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After this attack is blocked, your rival spends 1 momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack deals damage, add 1 non-attack card from your discard pile to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 5,
+        "Damage": 4
+    },
+    "005": {
+        "Name": "Deku's Swift Takedown",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Stun:",
+                "Rating": 2,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack is not blocked, draw 1 card. Flip this attack after it resolves.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "low",
+        "Speed": 3,
+        "Damage": 5
+    },
+    "006": {
+        "Name": "Fa Jin Flurry",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "EX:",
+                "Rating": 3,
+                "effectPath": ""
+            },
+            {
+                "Name": "Kick",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack receives a speed bonus of 3 or greater, add the top card of your deck to your momentum.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 0,
+        "Damage": 7
+    },
+    "007": {
+        "Name": "One For All Full Cowling 45% Impact Detroit Smash",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "all",
+            "earth",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Deadlock,Stun:",
+                "Rating": 2,
+                "effectPath": ""
+            },
+            {
+                "Name": "Echo",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If your last attack this turn was blocked, this attack gets -1 difficulty and +2 speed.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 6
+    },
+    "008": {
+        "Name": "Pinpoint Focus: Blackwhip Shot",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "life",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ranged",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "",
+                "Effect": "After this attack is blocked, your rival adds 1 random card from their hand to their card pool face down and draws 1 card. Flip this attack after it resolves.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 2,
+        "Damage": 5
+    },
+    "009": {
+        "Name": "Rapid Rescue",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 5,
+        "Check": 3,
+        "Symbols": [
+            "good",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Punch",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Card Pool, your turn] Flip",
+                "Effect": "After you play a foundation, build it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 1,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "high",
+        "Speed": 5,
+        "Damage": 5
+    },
+    "010": {
+        "Name": "Smokescreen Charge",
+        "Cardtype": "Attack",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 4,
+        "Check": 3,
+        "Symbols": [
+            "air",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Breaker:",
+                "Rating": 2,
+                "effectPath": ""
+            },
+            {
+                "Name": "Charge",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "While you have a face down card in your card pool, this attack gets +3 damage.        </div>",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "AttackZone": "mid",
+        "Speed": 4,
+        "Damage": 4
+    },
+    "011": {
+        "Name": "Creative Counter",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "After you block with a foundation with a keyword, build it.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "012": {
+        "Name": "Eighth Wielder",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Commit",
+                "Effect": "Draw 1 card for every 2 differently named Vestige foundations in your stage. Remove this card from the game.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "013": {
+        "Name": "Expression of Friendship",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "life",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious] Sacrifice",
+                "Effect": "After you make a check, if you have a face down card in your card pool, that check gets +2.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "014": {
+        "Name": "Fifth Wielder: Blackwhip",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "life",
+            "void",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious]",
+                "Effect": "After you commit this card to pay a cost, change this attack's zone. If it is your rival's turn, flip this card.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "015": {
+        "Name": "First Wielder: One for All",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "infinity"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious] Flip",
+                "Effect": "After you transform your character, gain 2 health and ready 1 foundation that has not been readied this Combat Phase.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "016": {
+        "Name": "Fourth Wielder: Danger Sense",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "good",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "Commit 1 foundation",
+                "Effect": "Before you make a check to play this card as a block, change this attack's zone to Mid Attack.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Flip",
+                "Effect": "This attack gets -2 speed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "017": {
+        "Name": "Second Wielder",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "life",
+            "water"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "If your rival has 6 or more foundations, you may sacrifice this foundation as though you were spending momentum to pay for EX or Powerful abilities.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Enhance",
+                "Cost": "Commit, Flip 1 attack in your card pool",
+                "Effect": "Your attack gets +3 speed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "mid",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "018": {
+        "Name": "Seventh Wielder: Float",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 5,
+        "Symbols": [
+            "good",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Card Pool] Flip",
+                "Effect": "After your rival plays an ability that causes a card to leave their card pool, cancel it.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Flip",
+                "Effect": "At the start of the End Phase, add 1 face down card from your card pool to your hand.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 2,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "019": {
+        "Name": "Sixth Wielder: Smokescreen",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 1,
+        "Check": 5,
+        "Symbols": [
+            "air",
+            "life",
+            "void"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Enhance",
+                "Cost": "Add 1 card from your hand to your card pool face down",
+                "Effect": "This attack gets -4 speed.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "high",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    },
+    "020": {
+        "Name": "Third Wielder: Fa Jin",
+        "Cardtype": "Foundation",
+        "Legality": [
+            "Rochester Retro",
+            "Spotlight MHA",
+            "Retro",
+            "Standard",
+            "Legacy"
+        ],
+        "Difficulty": 2,
+        "Check": 4,
+        "Symbols": [
+            "air",
+            "good",
+            "life"
+        ],
+        "Keywords": [
+            {
+                "Name": "Ally",
+                "Rating": null,
+                "effectPath": ""
+            },
+            {
+                "Name": "Vestige",
+                "Rating": null,
+                "effectPath": ""
+            }
+        ],
+        "Abilities": [
+            {
+                "Type": "Response",
+                "Cost": "[Tenacious]",
+                "Effect": "After you commit this card to pay a cost, add it to your momentum.",
+                "effectPath": ""
+            },
+            {
+                "Type": "Response",
+                "Cost": "Commit",
+                "Effect": "After your attack receives a speed bonus of 3 or greater, it gets +3 damage.",
+                "effectPath": ""
+            }
+        ],
+        "BlockZone": "low",
+        "BlockMod": 3,
+        "HandSize": null,
+        "Health": null,
+        "Stamina": null,
+        "Speed": null,
+        "Damage": null
+    }
+}
