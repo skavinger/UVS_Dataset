@@ -42,7 +42,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "001"
+        "cardNumber": "001",
+        "transfromation": null
     },
     "002": {
         "Name": "Cha Hae-In",
@@ -86,7 +87,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "002"
+        "cardNumber": "002",
+        "transfromation": null
     },
     "003": {
         "Name": "Choi Jong-In",
@@ -131,7 +133,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "003"
+        "cardNumber": "003",
+        "transfromation": null
     },
     "004": {
         "Name": "Sung Jinwoo, E Rank Hunter",
@@ -181,7 +184,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "004"
+        "cardNumber": "004",
+        "transfromation": {"set": "sleb", "number": "004B"}
     },
     "004B": {
         "Name": "Shadow Monarch Skill Tree",
@@ -207,21 +211,9 @@
                 "effectPath": ""
             },
             {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Shadow Extraction",
-                "effectPath": ""
-            },
-            {
                 "Type": "Form",
                 "Cost": "[Once per turn]",
                 "Effect": "Try to play a Shadow Shift attack from your discard pile.",
-                "effectPath": ""
-            },
-            {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Shadow Preservation",
                 "effectPath": ""
             },
             {
@@ -231,21 +223,9 @@
                 "effectPath": ""
             },
             {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Shadow Exchange",
-                "effectPath": ""
-            },
-            {
                 "Type": "Enhance",
                 "Cost": "Sacrifice 1 backup",
                 "Effect": "Draw 1 card. This attack gets +2 or -2 speed.",
-                "effectPath": ""
-            },
-            {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Monarch's Domain",
                 "effectPath": ""
             },
             {
@@ -264,7 +244,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "004B"
+        "cardNumber": "004B",
+        "transfromation": {"set": "sleb", "number": "004"}
     },
     "005": {
         "Name": "Grinding Overtime",
@@ -314,7 +295,8 @@
         "Damage": null,
         "setName": "sleb",
         "cardNumber": "005",
-        "AttackZone": null
+        "AttackZone": null,
+        "transfromation": {"set": "sleb", "number": "005B"}
     },
     "005B": {
         "Name": "High-Orc Soldier",
@@ -358,7 +340,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "005B"
+        "cardNumber": "005B",
+        "transfromation": {"set": "sleb", "number": "005"}
     },
     "006": {
         "Name": "Bear Bite",
@@ -413,7 +396,8 @@
         "Speed": 3,
         "Damage": 5,
         "setName": "sleb",
-        "cardNumber": "006"
+        "cardNumber": "006",
+        "transfromation": {"set": "sleb", "number": "006"}
     },
     "006B": {
         "Name": "Tank, Shadow Bear",
@@ -463,7 +447,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "006B"
+        "cardNumber": "006B",
+        "transfromation": {"set": "sleb", "number": "006"}
     },
     "007": {
         "Name": "Chivalrous Charge",
@@ -522,7 +507,8 @@
         "Speed": 3,
         "Damage": 4,
         "setName": "sleb",
-        "cardNumber": "007"
+        "cardNumber": "007",
+        "transfromation": {"set": "sleb", "number": "007B"}
     },
     "007B": {
         "Name": "Igris",
@@ -584,7 +570,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "007B"
+        "cardNumber": "007B",
+        "transfromation": {"set": "sleb", "number": "007"}
     },
     "008": {
         "Name": "Rage Riot",
@@ -643,7 +630,8 @@
         "Speed": 4,
         "Damage": 7,
         "setName": "sleb",
-        "cardNumber": "008"
+        "cardNumber": "008",
+        "transfromation": {"set": "sleb", "number": "008B"}
     },
     "008B": {
         "Name": "Iron, Former Hunter",
@@ -699,7 +687,8 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "008B"
+        "cardNumber": "008B",
+        "transfromation": {"set": "sleb", "number": "008"}
     },
     "009": {
         "Name": "Shadow Sorcery",
@@ -753,7 +742,8 @@
         "Speed": 4,
         "Damage": 4,
         "setName": "sleb",
-        "cardNumber": "009"
+        "cardNumber": "009",
+        "transfromation": {"set": "sleb", "number": "009B"}
     },
     "009B": {
         "Name": "Shadow Mage",
@@ -797,6 +787,7 @@
         "Speed": null,
         "Damage": null,
         "setName": "sleb",
-        "cardNumber": "009B"
+        "cardNumber": "009B",
+        "transfromation": {"set": "sleb", "number": "009"}
     }
 }
