@@ -16,12 +16,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "Before you play an attack as a Reversal, you may play any attack in your hand as a Reversal.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack played as a Reversal deals damage, look at your opponent's hand and choose 1 card.",
                 "effectPath": ""
@@ -56,12 +56,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After your opponent plays a card, they play with their hand revealed for the rest of the turn.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "If you block this attack, you may ready X foundations.",
                 "effectPath": ""
@@ -100,12 +100,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack played as a Reversal deals damage, look at your opponent's hand and choose 1 card. Your opponent discards the chosen card.",
                 "effectPath": ""
             }, {
-                "Type": "Alba E",
+                "Type": "Alba Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, look at your opponent's hand and choose 2 cards.",
                 "effectPath": ""
@@ -144,7 +144,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Look at X random cards in your opponent's hand and choose 1 card.",
                 "effectPath": ""
@@ -184,7 +184,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X cards",
                 "Effect": "This attack gets -X speed.",
                 "effectPath": ""
@@ -227,7 +227,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X momentum",
                 "Effect": "Look at your opponent's hand and choose X cards.",
                 "effectPath": ""
@@ -276,7 +276,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Make a control check.",
                 "effectPath": ""
@@ -321,7 +321,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you completely block an attack, ready this foundation.",
                 "effectPath": ""
@@ -356,7 +356,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If you block this attack, ready 2 foundations.",
                 "effectPath": ""
@@ -391,12 +391,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "You have no maximum vitality for the rest of this turn. Gain 2 vitality. During this turn's End Phase, if your vitality is higher than your maximum vitality, reduce your vitality to your maximum vitality. Only playable during your opponent's turn.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Reveal the top card of your deck.",
                 "effectPath": ""
@@ -431,7 +431,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you completely block an attack, reveal the top card of your deck and gain vitality equal to its control.",
                 "effectPath": ""
@@ -470,7 +470,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack (or any of its Multiple copies) is blocked, reveal the top card of your deck.",
                 "effectPath": ""
@@ -505,7 +505,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack is blocked, reveal the top card of your deck.",
                 "effectPath": ""
@@ -544,12 +544,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Reveal the top card of your deck. If the revealed card is an attack, gain vitality equal to its control.",
                 "effectPath": ""
             }, {
-                "Type": "Athena R",
+                "Type": "Athena Response",
                 "Cost": "",
                 "Effect": "After this card is played as a block, reveal the top card of your deck.",
                 "effectPath": ""
@@ -588,7 +588,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, reveal the top card of your deck.",
                 "effectPath": ""
@@ -636,7 +636,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, for the rest of this turn, each time you would gain vitality you may draw 1 card instead.",
                 "effectPath": ""
@@ -666,7 +666,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Name a card and reveal the top card of your deck.",
                 "effectPath": ""
@@ -701,7 +701,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Reveal the top card of your deck.",
                 "effectPath": ""
@@ -736,12 +736,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your Stun attack deals damage, cards and abilities you play may not be canceled or negated for the rest of this turn.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this mid attack deals damage, gain 1 vitality.",
                 "effectPath": ""
@@ -779,12 +779,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your stun attack deals damage, your opponent may not play response cards or abilities for the rest of this turn.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Gain 1 vitality.",
                 "effectPath": ""
@@ -826,7 +826,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit X foundations",
                 "Effect": "Gain X vitality unless your opponent commits X foundations.",
                 "effectPath": ""
@@ -861,7 +861,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "If this attack deals damage, your opponent commits 3 cards in their staging area.",
                 "effectPath": ""
@@ -895,7 +895,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "If your opponent committed foundations due to this attack's Stun ability, cards and abilities you play may not be cancelled or negated for the rest of this Enhance step. This ability may not be cancelled or negated.",
                 "effectPath": ""
@@ -929,7 +929,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, gain X vitality.",
                 "effectPath": ""
@@ -964,7 +964,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "For the rest of this Enhance Step, after your opponent plays an enhance card or ability, negate its effects and your opponent gains 2 vitality.",
                 "effectPath": ""
@@ -994,7 +994,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your Stun attack deals damage, your opponent must commit 1 foundation as an additional cost to play any enhance for the rest of this turn.",
                 "effectPath": ""
@@ -1024,7 +1024,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit, discard X momentum",
                 "Effect": "Gain X vitality.",
                 "effectPath": ""
@@ -1054,12 +1054,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If your attack deals damage, ready any 1 foundation.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent plays an attack as a Reversal, change the zone of that attack to low.",
                 "effectPath": ""
@@ -1097,12 +1097,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, commit 1 foundation",
                 "Effect": "If your attack deals damage, ready 2 foundations in your staging area.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 Reversal",
                 "Effect": "Change the zone of this attack to low.",
                 "effectPath": ""
@@ -1145,7 +1145,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, ready X foundations in your staging area that haven't been readied this combat phase. X equals the amount of damage this attack dealt.",
                 "effectPath": ""
@@ -1180,7 +1180,7 @@
                 "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, ready 1 foundation in your staging area that hasn't been readied this Combat Phase.",
                 "effectPath": ""
@@ -1214,7 +1214,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Change the zone of this attack to low.",
                 "effectPath": ""
@@ -1253,12 +1253,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "Before this card is added to your momentum, place it in your staging area instead.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Take this card from your staging area and play it as though it were in your hand, following all restrictions and paying all costs (no control check necessary). Only playable from your staging area.",
                 "effectPath": ""
@@ -1297,7 +1297,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Change the zone of this attack to low.",
                 "effectPath": ""
@@ -1332,7 +1332,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your attack deals damage, ready 1 other foundation in your staging area.",
                 "effectPath": ""
@@ -1367,7 +1367,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Change the zone of your attack played as a reversal to low.",
                 "effectPath": ""
@@ -1397,12 +1397,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Lose 3 vitality",
                 "Effect": "Place 1 Caffeine token on this card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Your attack gets +X damage.",
                 "effectPath": ""
@@ -1412,7 +1412,7 @@
                 "Effect": "X equals the number of Caffeine tokens on this card.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you block an attack, choose 1 foundation in your discard pile.",
                 "effectPath": ""
@@ -1465,7 +1465,7 @@
                 "Effect": "After this card enters your staging area, place 2 Caffeine tokens on your character card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, remove 1 Caffeine token from your character card",
                 "Effect": "Your attack gets +X damage.",
                 "effectPath": ""
@@ -1513,7 +1513,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you block with this attack, take 1 foundation that shares at least 2 resource symbols with your character card from your discard pile and add it to your hand.",
                 "effectPath": ""
@@ -1547,7 +1547,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit 1 foundation",
                 "Effect": "After you play this card as a block, take 1 foundation card from your discard pile and add it to your hand.",
                 "effectPath": ""
@@ -1585,12 +1585,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Discard 1 momentum: This attack gets +X damage. X equals either the number of tokens on your character card or the number of other attacks in your card pool.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit 1 foundation",
                 "Effect": "After you play this card as a block, take 1 foundation from your discard pile and add it to your staging area.",
                 "effectPath": ""
@@ -1625,7 +1625,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "If this attack is blocked, your next attack this turn gets +2 damage.",
                 "effectPath": ""
@@ -1655,7 +1655,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "If this attack is blocked, your next attack this turn gets +X damage.",
                 "effectPath": ""
@@ -1690,7 +1690,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Place X Caffeine tokens on this card.",
                 "effectPath": ""
@@ -1705,7 +1705,7 @@
                 "Effect": "Only playable while there are 0 Caffeine tokens on this card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, remove X Caffeine tokens from this card",
                 "Effect": "Your Reversal gets +X damage.",
                 "effectPath": ""
@@ -1735,7 +1735,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit, commit 2 other foundations",
                 "Effect": "After you completely block an attack, choose 1 foundation in your discard pile.",
                 "effectPath": ""
@@ -1770,7 +1770,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit, discard 1 random momentum",
                 "Effect": "Reveal your momentum.",
                 "effectPath": ""
@@ -1818,12 +1818,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "If this attack deals damage, your opponent discards 2 momentum.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your attack deals damage, add it to your momentum.",
                 "effectPath": ""
@@ -1857,12 +1857,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this card is added to your momentum add it face up.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Discard 2 momentum",
                 "Effect": "You may play this card as if it were in your hand, following all restrictions and paying all costs. Only playable while face up in your momentum.",
                 "effectPath": ""
@@ -1901,7 +1901,7 @@
                 "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.",
                 "effectPath": ""
             }, {
-                "Type": "Hanzo E",
+                "Type": "Hanzo Enhance",
                 "Cost": "",
                 "Effect": "Reveal your momentum.",
                 "effectPath": ""
@@ -1941,7 +1941,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 card",
                 "Effect": "If this attack deals damage, add it to your momentum.",
                 "effectPath": ""
@@ -1984,7 +1984,7 @@
                 "Effect": "This card may be played as a block against a ranged attack as if it had a mid block of +0.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 card",
                 "Effect": "Name 1 card.",
                 "effectPath": ""
@@ -2028,7 +2028,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 momentum",
                 "Effect": "Name 1 card.",
                 "effectPath": ""
@@ -2063,7 +2063,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent plays an ability on a face up card in their momentum, negate that ability and your opponent discards that card from their momentum.",
                 "effectPath": ""
@@ -2093,7 +2093,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Reveal 1 random card from your momentum.",
                 "effectPath": ""
@@ -2138,12 +2138,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Lose X Vitality",
                 "Effect": "Make a control check with a difficulty of X. If you pass, your attack gets +X damage.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, gain X vitality",
                 "Effect": "Your attack gets -X damage.",
                 "effectPath": ""
@@ -2186,12 +2186,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Your attack gets +3 damage. Only playable if you have gained vitality this turn.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "discard 1 momentum",
                 "effectPath": ""
@@ -2233,7 +2233,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, gain X vitality.",
                 "effectPath": ""
@@ -2268,7 +2268,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack does damage, your next attack this turn gets +2 damage.",
                 "effectPath": ""
@@ -2302,7 +2302,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 2 momentum",
                 "Effect": "After you use this attack's Powerful ability, gain X vitality.",
                 "effectPath": ""
@@ -2345,7 +2345,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you lose vitality, this attack gets +X damage.",
                 "effectPath": ""
@@ -2380,12 +2380,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If you add this card to your momentum, add it face up and place 2 Sake tokens on it.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Remove 1 Sake token",
                 "Effect": "After your opponent's character readies, commit it. Only playable if this card is face up in your momentum.",
                 "effectPath": ""
@@ -2415,7 +2415,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum, destroy 1 foundation",
                 "Effect": "Your attack gets +X damage.",
                 "effectPath": ""
@@ -2450,7 +2450,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Discard 1 momentum, destroy 1 foundation",
                 "Effect": "Gain X vitality.",
                 "effectPath": ""
@@ -2485,12 +2485,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "After you play a Fire card, discard up to 2 Fire cards from your card pool.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Your attack gets +3 damage. Only playable if your attack has a damage of 4 or more.",
                 "effectPath": ""
@@ -2520,7 +2520,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 momentum",
                 "Effect": "Your Fire attack with a printed damage of 4 or more gets +8 damage.",
                 "effectPath": ""
@@ -2550,7 +2550,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 momentum",
                 "Effect": "If the next card you play this turn is a Fire attack, discard this card from your card pool.",
                 "effectPath": ""
@@ -2580,7 +2580,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Discard 1 momentum: This attack gets +4 damage.",
                 "effectPath": ""
@@ -2620,7 +2620,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you play this card, discard 1 Fire attack from your card pool.Iori E: Your next attack this turn with a printed damage of 4 or more gets +5 damage.",
                 "effectPath": ""
@@ -2658,7 +2658,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 3 momentum",
                 "Effect": "This attack gets +8 damage. This attack may not get any other damage bonuses this turn. Only playable if this attack has not received any other damage bonuses this turn.",
                 "effectPath": ""
@@ -2688,7 +2688,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 3 momentum",
                 "Effect": "This attack gets +6 damage.",
                 "effectPath": ""
@@ -2698,7 +2698,7 @@
                 "Effect": "This attack may not get any other damage bonuses this turn. Only playable if this attack has not received any other damage bonuses this turn.",
                 "effectPath": ""
             }, {
-                "Type": "Iori E",
+                "Type": "Iori Enhance",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Discard all other Fire attacks in your card pool.",
                 "effectPath": ""
@@ -2728,7 +2728,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Discard 1 Fire attack from your card pool.",
                 "effectPath": ""
@@ -2758,7 +2758,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "Your Fire attack of printed damage 4 or more gets +4 damage.",
                 "effectPath": ""
@@ -2788,12 +2788,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "After you make a control check, that check is equal to your momentum.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Before you make a control check to play an attack as a Reversal, discard 1 card from your hand. Use the discarded card's control for the check (no control check necessary).",
                 "effectPath": ""
@@ -2823,7 +2823,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you make a control check, that check is equal to your momentum.",
                 "effectPath": ""
@@ -2857,7 +2857,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 card",
                 "Effect": "The control check for the next card you play this turn equals the discarded card's control (no control check necessary).",
                 "effectPath": ""
@@ -2896,7 +2896,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Before you make a control check to play an attack, that check is equal to your momentum (no control check necessary).",
                 "effectPath": ""
@@ -2930,7 +2930,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you block with this card, for the rest of the turn before you make a control check to play an attack as a Reversal, you may discard 1 card from your hand.",
                 "effectPath": ""
@@ -2977,7 +2977,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "If this attack deals damage, the next control check you make this turn is equal to your momentum (no control check necessary).",
                 "effectPath": ""
@@ -3007,7 +3007,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "Before you make a control check, that check gets +X.",
                 "effectPath": ""
@@ -3042,7 +3042,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "Before you make a control check to play a Reversal, discard 1 card from your hand.",
                 "effectPath": ""
@@ -3077,7 +3077,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "Before you make a control check, the check is equal to your momentum (no control check necessary).",
                 "effectPath": ""
@@ -3107,12 +3107,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 reversal",
                 "Effect": "Discard any unblockable attack from any card pool.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Your Life or Water attack gets +1 speed.",
                 "effectPath": ""
@@ -3142,7 +3142,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you play an attack as a Reversal, change its zone to any other zone.",
                 "effectPath": ""
@@ -3184,7 +3184,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 momentum",
                 "Effect": "This attack may not be blocked by attack cards.",
                 "effectPath": ""
@@ -3218,7 +3218,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Change the zone of this attack to mid.",
                 "effectPath": ""
@@ -3262,7 +3262,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After this card is played as a block, change its block zone to mid.",
                 "effectPath": ""
@@ -3300,7 +3300,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Change the zone of this attack (and each of its Multiple copies) to high.",
                 "effectPath": ""
@@ -3330,7 +3330,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Change the zone of this attack to high or low.",
                 "effectPath": ""
@@ -3360,7 +3360,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Change the zone of this attack to mid.",
                 "effectPath": ""
@@ -3400,7 +3400,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "If you attempt to block this attack, change the zone of your block to match the zone of the attack.",
                 "effectPath": ""
@@ -3430,12 +3430,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Your attack gets +X speed. X equals the number of resources the attack shares with your character card.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you fail a control check to play a card, you may discard any number of momentum.",
                 "effectPath": ""
@@ -3470,7 +3470,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "After you play an attack, it gets +X speed.",
                 "effectPath": ""
@@ -3509,7 +3509,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "This attack gets +X speed.",
                 "effectPath": ""
@@ -3544,7 +3544,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "This attack may only be blocked by cards that share at least 1 resource symbol with it.",
                 "effectPath": ""
@@ -3574,7 +3574,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, the next time you commit foundations to make a control check successful this turn, each foundation committed counts as 2 foundations.",
                 "effectPath": ""
@@ -3651,7 +3651,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "This attack gets +1 speed for each card in your card pool that shares at least 1 resource symbol with it.",
                 "effectPath": ""
@@ -3681,7 +3681,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "This attack may only be blocked by cards that share at least 1 resource symbol with it.",
                 "effectPath": ""
@@ -3711,7 +3711,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "If you fail the control check for the next card you play this turn, you may discard any number of momentum.",
                 "effectPath": ""
@@ -3746,12 +3746,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Name 1 card and reveal your hand. Gain 2 vitality for each copy of the named card revealed this way.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Name 1 card and reveal your hand. Your opponent's attack gets -X damage.",
                 "effectPath": ""
@@ -3786,7 +3786,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After your opponent plays an attack, name 1 card and reveal your hand.",
                 "effectPath": ""
@@ -3870,7 +3870,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "If this attack deals damage (not its Multiple copies), reveal 1 asset card from your hand.",
                 "effectPath": ""
@@ -3910,7 +3910,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Reveal your hand.",
                 "effectPath": ""
@@ -3957,7 +3957,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Reveal 1 card from your hand.",
                 "effectPath": ""
@@ -4006,7 +4006,7 @@
                 "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Reveal an attack card from your hand. Gain X vitality. X equals the control of the card revealed this way.",
                 "effectPath": ""
@@ -4036,7 +4036,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Reveal 1 attack card from your hand.",
                 "effectPath": ""
@@ -4076,7 +4076,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Reveal 1 attack card from your hand.",
                 "effectPath": ""
@@ -4121,12 +4121,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 card",
                 "Effect": "Switch this attack's speed and damage values.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Each player reveals their momentum. Your opponent chooses 1 of your momentum and discards it. Choose 1 of your opponent's momentum and discard it. The remaining cards are returned to their owner's momentum face down.",
                 "effectPath": ""
@@ -4164,7 +4164,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Choose 1 attack in your card pool.",
                 "effectPath": ""
@@ -4174,7 +4174,7 @@
                 "Effect": "Change this attack's speed to the speed of the chosen attack.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Each player discards 3 momentum.",
                 "effectPath": ""
@@ -4213,12 +4213,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "Before this card is added to your momentum, place it in your staging area instead.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Take this card from your staging area and play it as though it were in your hand, following all restrictions and paying all costs (no control check necessary). Only playable from your staging area.",
                 "effectPath": ""
@@ -4252,7 +4252,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Remove any number of your momentum cards from the game.",
                 "effectPath": ""
@@ -4292,7 +4292,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 momentum",
                 "Effect": "Switch this attack's speed and damage values.",
                 "effectPath": ""
@@ -4326,7 +4326,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, each player discards all their face up momentum cards.",
                 "effectPath": ""
@@ -4364,7 +4364,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "The speed of your next mid attack this turn is equal to this attack's speed.",
                 "effectPath": ""
@@ -4394,7 +4394,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Switch this attack's speed and damage values.",
                 "effectPath": ""
@@ -4434,7 +4434,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Discard X momentum. Take X cards from your discard pile and add them to your momentum.",
                 "effectPath": ""
@@ -4464,12 +4464,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Take 1 card from your momentum and add it to your hand.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit, discard X momentum",
                 "Effect": "After you take damage from your opponent's attack, reduce that damage by X. Your opponent takes X damage. X cannot be more than half the attack's damage (rounded down).",
                 "effectPath": ""
@@ -4499,7 +4499,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit 1 foundation",
                 "Effect": "For the rest of the turn, after your attack deals damage, you may commit a foundation to take 1 card from your momentum and add it to your hand.",
                 "effectPath": ""
@@ -4533,7 +4533,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After this card is played as a block, your opponent takes X damage.",
                 "effectPath": ""
@@ -4580,7 +4580,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Take 3 random face down cards from your momentum and add them to your hand.",
                 "effectPath": ""
@@ -4614,7 +4614,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 2 foundations",
                 "Effect": "Take 2 random face down cards from your momentum and add them to your hand.",
                 "effectPath": ""
@@ -4648,7 +4648,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "For the rest of this turn, after your opponent's attack deals damage, your opponent takes 2 damage.",
                 "effectPath": ""
@@ -4682,7 +4682,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, take 1 random face down card from your momentum and add it to your hand.",
                 "effectPath": ""
@@ -4717,7 +4717,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Your opponent takes 3 damage.",
                 "effectPath": ""
@@ -4752,7 +4752,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Take 1 card from your momentum and add it to your hand.",
                 "effectPath": ""
@@ -4782,12 +4782,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Your attack with greater speed than damage gets 'Multiple: 1'.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Destroy 1 ready foundation",
                 "Effect": "Cards in your card pool do not count toward progressive difficulty for the next Water card you play this turn.",
                 "effectPath": ""
@@ -4825,12 +4825,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Your weapon attack gets +2 speed.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Discard 1 Water attack from your card pool.",
                 "effectPath": ""
@@ -4868,7 +4868,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 card",
                 "Effect": "Discard 1 Water card from your card pool.",
                 "effectPath": ""
@@ -4902,7 +4902,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X cards",
                 "Effect": "This attack (and its Multiple copies) gets +X speed.",
                 "effectPath": ""
@@ -4937,7 +4937,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 2 cards",
                 "Effect": "This attack gets +X speed.",
                 "effectPath": ""
@@ -4980,7 +4980,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "This attack gets +1 speed for every other multiple attack in your card pool.",
                 "effectPath": ""
@@ -5010,7 +5010,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "For the rest of the turn, this card does not add to the progressive difficulty of your Water cards.",
                 "effectPath": ""
@@ -5040,7 +5040,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Lose 3 vitality",
                 "Effect": "Discard 1 Water card from your card pool.",
                 "effectPath": ""
@@ -5075,7 +5075,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Your Water attack gets +2 speed for each Multiple attack in your card pool.",
                 "effectPath": ""
@@ -5105,12 +5105,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 card",
                 "Effect": "After your opponent plays an attack, you do not need to block before playing a Reversal.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Commit 1 card in your opponent's staging area with an enhance ability printed on it.",
                 "effectPath": ""
@@ -5144,12 +5144,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum, discard 1 Reversal",
                 "Effect": "Before you would block, your opponent's attack is partially blocked. You may play a Reversal as normal.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Destroy 1 non-character card in your opponent's staging area with a response ability printed on it.",
                 "effectPath": ""
@@ -5183,7 +5183,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you play the Multiple ability of this card, your opponent may commit any number of foundations.",
                 "effectPath": ""
@@ -5222,7 +5222,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 3 momentum",
                 "Effect": "Destroy 1 card in your opponent's staging area with a form ability printed on it.",
                 "effectPath": ""
@@ -5256,7 +5256,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X momentum",
                 "Effect": "This attack gets 'Multiple",
                 "effectPath": ""
@@ -5290,7 +5290,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, your opponent commits X foundations.",
                 "effectPath": ""
@@ -5333,7 +5333,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "After you successfully block with this card, you may immediately play this card as a Reversal, following all restrictions and paying all costs.",
                 "effectPath": ""
@@ -5368,7 +5368,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum, commit",
                 "Effect": "After you take damage from an unblocked attack, play a Reversal from your hand, paying all costs.",
                 "effectPath": ""
@@ -5398,7 +5398,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Destroy 1 foundation",
                 "Effect": "After your opponent plays an ability printed on a non-character card in their staging area, destroy that card.",
                 "effectPath": ""

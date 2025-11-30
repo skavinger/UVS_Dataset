@@ -16,7 +16,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Remove",
                 "Effect": "After an attack is played, remove it. Its owner may play 1 attack with the same printed difficulty as the removed card from their discard pile (no check necessary).",
                 "effectPath": ""
@@ -51,7 +51,7 @@
                 "Effect": "After this card is discarded due to your opponent's effect, you may discard 1 attack from your opponent's card pool.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Card Pool] Remove",
                 "Effect": "After your opponent adds any number of cards to their hand due to their effect, they lose 5 vitality.",
                 "effectPath": ""
@@ -81,12 +81,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "[Once per turn]",
                 "Effect": "Both players lose 1 vitality.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit 1 foundation",
                 "Effect": "After an attack card leaves a player's card pool due to their effect, that player commits 1 foundation. Playable by either player.",
                 "effectPath": ""
@@ -129,7 +129,7 @@
                 "Effect": "While this card is in your card pool, Reversal attacks get +2 difficulty.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "This attack gets Multiple: X. X equals your momentum.",
                 "effectPath": ""

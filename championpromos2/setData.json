@@ -16,12 +16,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "First F",
+                "Type": "First Form",
                 "Cost": "",
                 "Effect": "Draw 2 cards and discard 3 cards. You may attempt to play 1 attack from your discard pile. If you do, it gets +2 speed.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Once per turn]",
                 "Effect": "After your attack deals damage, choose 1 of your opponent's foundations. That card does not ready during their next Ready Step.",
                 "effectPath": ""
@@ -51,12 +51,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "First F",
+                "Type": "First Form",
                 "Cost": "",
                 "Effect": "Reveal the top card of your deck. You may add it to the bottom of your deck. If you do not, and it is an asset or foundation, you may play it.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Once per turn] Commit 1 foundation",
                 "Effect": "After an attack deals damage, add 1 non-action card from your card pool to your hand.",
                 "effectPath": ""
@@ -86,12 +86,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "If the next card you attempt to play this turn is an attack, your checks get +1 for the rest of this turn.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "[Once per turn] Discard 1 momentum",
                 "Effect": "For the rest of this turn, whenever 1 of your attacks deals damage, your opponent commits 1 foundation.",
                 "effectPath": ""
@@ -130,7 +130,7 @@
                 "Effect": "After this card is destroyed, add it to your momentum.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Destroy",
                 "Effect": "After you check a non-attack, non-action card, add it to your hand.",
                 "effectPath": ""
@@ -160,12 +160,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "First F",
+                "Type": "First Form",
                 "Cost": "",
                 "Effect": "After your opponent's next Ready Phase, draw 1 card. Playable by either player. Playable while committed.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent's Ready Phase, reveal 1 non-throw card in your hand. Until the end of your next turn, checks to play copies of the named card get +1.",
                 "effectPath": ""

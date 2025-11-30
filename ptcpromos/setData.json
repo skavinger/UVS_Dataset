@@ -16,7 +16,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Lose X vitality",
                 "Effect": "Before the Damage Step of your opponent's attack, it deals no damage. Add 1 of your opponent's foundations to their hand. X equals half of that attack's damage (rounded down).",
                 "effectPath": ""
@@ -50,12 +50,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack is not blocked, draw 1 card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "If your opponent has more vitality than you do, destroy 1 foundation that was committed due to this attack's Stun ability.",
                 "effectPath": ""
@@ -98,7 +98,7 @@
                 "Effect": "If your opponent blocks this attack, seal their block.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "This attack gets +1 speed and +1 damage for each character card in your staging area.",
                 "effectPath": ""
@@ -128,12 +128,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Card Pool]",
                 "Effect": "After you block with this card, you may attempt to play it as a Reversal after the blocked attack resolves.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Card Pool]",
                 "Effect": "Remove, discard 2 momentum",
                 "effectPath": ""
@@ -163,7 +163,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Remove",
                 "Effect": "After an attack is played, it gains Flash.",
                 "effectPath": ""
@@ -193,12 +193,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "[Once per turn]",
                 "Effect": "This attack gets +1 or -1 damage.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Destroy",
                 "Effect": "After your opponent's Review Step, add the top card of their discard pile to their hand.",
                 "effectPath": ""

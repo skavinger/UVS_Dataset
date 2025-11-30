@@ -16,12 +16,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you check a 1, 2, or 3, re-check (only one re-check per control check).",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Discard 1 momentum",
                 "Effect": "After your opponent makes a control check, add the card used for the control check to their hand. Your opponent re-checks (only one re-check per control check). If the re-check is successful, draw 1 card.",
                 "effectPath": ""
@@ -51,12 +51,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you check a 1, add the card used for the control check to your hand and re-check (only one re-check per control check).",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you make a control check that fails by 2 or less, that control check is successful.",
                 "effectPath": ""
@@ -86,12 +86,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After you check a 1, add All control 1 cards in your discard pile to your hand.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "",
                 "Effect": "Commit any asset or foundation. You may commit 2 of your foundations to remove this card from your card pool.",
                 "effectPath": ""
@@ -121,7 +121,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "Before you pay the cost of an ability that requires you to discard momentum, you may discard any number of cards with a control of 1 from your hand. Each card discarded this way counts as 1 discarded momentum.",
                 "effectPath": ""
@@ -155,7 +155,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "While this card is ready, after any player checks a 1, that player draws 1 card and then may discard 1 card from their card pool.Akuma/Ryu F",
+                "Type": "While this card is ready, after any player checks a 1, that player draws 1 card and then may discard 1 card from their card pool.Akuma/Ryu Form",
                 "Cost": "Commit, discard 2 momentum",
                 "Effect": "Your opponent discards 1 card. Either player may play this ability.",
                 "effectPath": ""
@@ -185,7 +185,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, for the rest of this turn, after your opponent checks a 6, they add the checked card to their hand and re-check (only one re-check per control check).",
                 "effectPath": ""
@@ -249,9 +249,9 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard 1 momentum",
-                "Effect": "If this attack deals damage, reveal X cards from your hand with a control of 2 or less. Draw X cards.Akuma E",
+                "Effect": "If this attack deals damage, reveal X cards from your hand with a control of 2 or less. Draw X cards.Akuma Enhance",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -279,7 +279,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage and the control of the next attack you play this turn is 1, draw 2 cards after you play it.",
                 "effectPath": ""
@@ -314,7 +314,7 @@
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage and you checked a 1 to play this attack, if your next control check to play an attack fails by 3 or less, that control check is successful instead.",
                 "effectPath": ""
@@ -349,7 +349,7 @@
                 "Effect": "Discard 2 momentum as an additional cost to play this attack.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If your opponent attempts to block this attack and if they check a 5 for the control check to play their block, they re-check (only one re-check per control check).",
                 "effectPath": ""
@@ -383,7 +383,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack (or any of its Multiple copies) deals damage, until the end of your opponent's next turn, after your opponent checks a 6, they re-check (only one re-check per control check).",
                 "effectPath": ""
@@ -413,7 +413,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, remove All the cards in your discard pile with a control of 2 or less from the game.",
                 "effectPath": ""
@@ -443,12 +443,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you check a 2 or less, add the checked card to your hand.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent plays an ability that adds 1 or more attacks to their card pool without a control check, cancel its effects.",
                 "effectPath": ""
@@ -478,7 +478,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your attack deals damage, draw 1 card.",
                 "effectPath": ""
@@ -508,7 +508,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Until the beginning of your next turn, after any player fails a control check by 1, that check is successful instead.Akuma/Ryu R Commit",
                 "effectPath": ""
@@ -538,7 +538,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Your control check gets +1 for the rest of this turn.",
                 "effectPath": ""
@@ -568,7 +568,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "Choose either 1, 2, or 3. For the rest of this turn, after a player checks the chosen number, they re-check (only one re-check per control check).Akuma/Ryu R Commit",
                 "effectPath": ""
@@ -598,7 +598,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "Until the beginning of your next turn, after your opponent checks a 5 or higher, they re-check (only one re-check per control check). After your opponent plays an attack, this effect ends.Akuma/Ryu R Commit",
                 "effectPath": ""
@@ -628,7 +628,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you play a card into your card pool that matches 2 or more of your character's symbols, commit 1 of your opponent's foundations or assets.",
                 "effectPath": ""
@@ -658,7 +658,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "After you fail a control check by 3 or less, that check is successful instead.",
                 "effectPath": ""
@@ -688,7 +688,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit 1 foundation, reveal a control 1 card in your hand",
                 "Effect": "Each player draws 1 card. Each player may play this ability once per Enhance Step. Playable while committed.",
                 "effectPath": ""
@@ -718,7 +718,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your Draw Step, draw 1 card. Then, you may add 1 card from your hand to your momentum.",
                 "effectPath": ""
@@ -748,12 +748,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent's Draw Step, draw 1 card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "This attack gets -X damage. X equals the number of cards in your hand minus the number of cards in your opponent's hand (minimum zero).",
                 "effectPath": ""
@@ -783,12 +783,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Reveal the top card of your deck",
                 "Effect": "You may play the revealed card as though it were in your hand until the end of this turn.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit 1 foundation",
                 "Effect": "Before you block with this card, change this card's block zone to high or low.",
                 "effectPath": ""
@@ -818,12 +818,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X momentum",
                 "Effect": "If this attack deals no damage, draw X cards.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After your opponent plays an ability that destroys a card in your staging area, if you have fewer cards in your staging area than they do, destroy 1 card in their staging area.",
                 "effectPath": ""
@@ -853,7 +853,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Discard X cards",
                 "Effect": "This attack has its damage reduced by X+1. Remove this card from the game.",
                 "effectPath": ""
@@ -887,12 +887,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "",
                 "Effect": "If you have at least 10 cards in your hand or 10 momentum, place 10 Balance tokens on this card. Only playable if there are 0 Balance tokens on this card.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Remove X Balance tokens from this card",
                 "Effect": "Reduce this attack's damage by X (minimum 1). Either draw X cards or add X cards from the top of your deck to your momentum (your choice). X may not be greater than half of this attack's printed damage (rounded down). Only playable during your opponent's attack.",
                 "effectPath": ""
@@ -956,12 +956,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, before your End Phase begins, add it to your staging area with X Balance tokens on it. X equals the number of cards in your hand.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Remove X Balance tokens from this card",
                 "Effect": "If this attack deals damage, the next attack this turn gets -X damage. If this card has 0 Balance tokens on it, destroy this card. Only playable from your staging area.",
                 "effectPath": ""
@@ -996,7 +996,7 @@
                 "Effect": "You may place this card in your card pool to completely block any ranged attack (no control check necessary).",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, during the next Ready Phase, add the top card of your deck to your momentum.",
                 "effectPath": ""
@@ -1026,12 +1026,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Draw 2 cards.",
                 "effectPath": ""
             }, {
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, destroy any one asset.",
                 "effectPath": ""
@@ -1065,7 +1065,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, your opponent's next attack this turn gets -3 damage (to a minimum of 1).",
                 "effectPath": ""
@@ -1099,7 +1099,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this card is added to your momentum from your card pool this turn, add it face up.While this card is face up in your momentum, draw 1 card after your Draw Step.",
                 "effectPath": ""
@@ -1129,12 +1129,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals damage, before your End Phase begins add it to your staging area with 2 Balance tokens on it.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Remove X Balance tokens from this card",
                 "Effect": "Draw X cards. If this card has 0 Balance tokens on it, remove it from the game. Only playable from your staging area.",
                 "effectPath": ""
@@ -1194,7 +1194,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "Before you draw a card, discard 2 cards.",
                 "effectPath": ""
@@ -1224,7 +1224,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Destroy this foundation",
                 "Effect": "Any attack gets -3 damage. If this reduces the damage of the attack to less than 1, draw 1 card.",
                 "effectPath": ""
@@ -1254,7 +1254,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If your opponent's next form this turn is an attack, it gets -4 damage. Only playable if you have more momentum than your opponent.",
                 "effectPath": ""
@@ -1284,12 +1284,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you draw 1 or more cards, if you have more cards in your hand than your opponent, draw 1 card.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After you gain 1 or more momentum, if you have more momentum than your opponent, add the top card of your deck to your momentum.",
                 "effectPath": ""
@@ -1319,12 +1319,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Draw 1 card. If you have more momentum than your opponent, this attack gets -3 damage.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your opponent's Ready Phase, until the beginning of your opponent's next turn, players may not add cards to their momentum during their Combat Phase.",
                 "effectPath": ""
@@ -1354,7 +1354,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Commit",
                 "Effect": "During your End Phase, add 1 card from the top of your deck to your momentum for each attack that dealt damage this turn.",
                 "effectPath": ""
@@ -1384,7 +1384,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "Commit, discard 1 card",
                 "Effect": "Any attack gets -1 damage.",
                 "effectPath": ""

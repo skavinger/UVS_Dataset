@@ -16,12 +16,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Destroy 1 foundation",
                 "Effect": "After an attack is played, it gets +1 speed and +2 damage.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Twice per turn] Discard 1 card",
                 "Effect": "After an attack deals damage, draw 1 card.",
                 "effectPath": ""
@@ -51,12 +51,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Your attack gets +1 speed and +1 damage.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "[Once per turn] Reveal 1 Death, Evil or Fire asset from your hand",
                 "Effect": "If there are no copies of that asset in your staging area, add it to your staging area.",
                 "effectPath": ""
@@ -86,12 +86,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "[Twice per turn] Lose 1 vitality",
                 "Effect": "Your attack gets +3 damage.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Twice per turn]",
                 "Effect": "After you lose vitality, gain 1 vitality.",
                 "effectPath": ""
@@ -121,12 +121,12 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "E",
+                "Type": "Enhance",
                 "Cost": "[Once per turn] Commit 1 card in your staging area",
                 "Effect": "Your non-throw attack gets +3 speed and Powerful",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "[Twice per turn]",
                 "Effect": "After you commit a card, your next check gets +1. Playable while committed.",
                 "effectPath": ""
@@ -164,7 +164,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After an attack is played, it gets +2 or -2 speed. Seal 1 of your opponent's foundations.",
                 "effectPath": ""
@@ -198,7 +198,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "[Once per turn] Commit, discard 1 card",
                 "Effect": "Discard cards from the top of your deck until you discard an attack card. Add the discarded attack to your hand.",
                 "effectPath": ""
@@ -233,7 +233,7 @@
                 "Effect": "After this asset is destroyed, discard 1 of your opponent's momentum.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Destroy",
                 "Effect": "After your opponent plays a card as a block, seal it. Your attack gets Safe until the end of the turn.",
                 "effectPath": ""
@@ -268,7 +268,7 @@
                 "Effect": "After this card is discarded, draw 1 card and discard 1 card.",
                 "effectPath": ""
             }, {
-                "Type": "F",
+                "Type": "Form",
                 "Cost": "Add this card to your hand",
                 "Effect": "Your opponent adds 1 asset to their hand. If you are at Desperation, discard 1 card and your opponent commits 1 foundation.",
                 "effectPath": ""
@@ -298,7 +298,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your non-throw attack deals damage, add it to your hand. You cannot play attacks for the rest of this turn. Only playable if your character's printed hand size is less than your opponent's.",
                 "effectPath": ""
@@ -333,7 +333,7 @@
                 "Effect": "Once per turn, if this foundation is committed due to a cost, ready it.",
                 "effectPath": ""
             }, {
-                "Type": "R",
+                "Type": "Response",
                 "Cost": "",
                 "Effect": "After your Draw Step, if your character's hand size is 5 or less, reveal the top 3 cards of your deck and replace them in any order.",
                 "effectPath": ""
