@@ -6,365 +6,481 @@
         "000": {
             "Name": "Roman Cancel",
             "Cardtype": "Token",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
             "Symbols": [],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Remove this card at the beginning of your turn.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "You may play only 1 ability named \"Red\" each turn. The same is true of abilities named \"Purple,\" \"Yellow,\" and \"Blue.\"",
-                "effectPath": ""
-            }, {
-                "Type": "Red - Enhance",
-                "Cost": "Remove",
-                "Effect": "Change the zone of your attack.",
-                "effectPath": ""
-            }, {
-                "Type": "Purple - Response",
-                "Cost": "Remove, spend 1 momentum",
-                "Effect": "After your blocked attack resolves, clear it from your card pool and draw 1 card.",
-                "effectPath": ""
-            }, {
-                "Type": "Yellow - Response",
-                "Cost": "Remove, spend 1 momentum",
-                "Effect": "Before you take damage from an unblocked attack, change that attack’s damage to 3.",
-                "effectPath": ""
-            }, {
-                "Type": "Blue - Form",
-                "Cost": "Remove",
-                "Effect": "Freeze 1 rival foundation.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Remove this card at the beginning of your turn.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "You may play only 1 ability named \"Red\" each turn. The same is true of abilities named \"Purple,\" \"Yellow,\" and \"Blue.\"",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Red - Enhance",
+                    "Cost": "Remove",
+                    "Effect": "Change the zone of your attack.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Purple - Response",
+                    "Cost": "Remove, spend 1 momentum",
+                    "Effect": "After your blocked attack resolves, clear it from your card pool and draw 1 card.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Yellow - Response",
+                    "Cost": "Remove, spend 1 momentum",
+                    "Effect": "Before you take damage from an unblocked attack, change that attack's damage to 3.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Blue - Form",
+                    "Cost": "Remove",
+                    "Effect": "Freeze 1 rival foundation.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "000",
+            "AttackZone": null,
             "transfromation": null
         },
         "001": {
             "Name": "Bridget",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["air", "water"],
-            "Keywords": [{
-                "Name": "Hunter",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Flip 1 card in your card pool",
-                "Effect": "This attack gets +2 or -2 speed.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "[Twice per turn]",
-                "Effect": "After your attack deals damage, add 1 face down card from your card pool to your momentum.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "air",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Hunter",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Flip 1 other card in your card pool",
+                    "Effect": "This attack gets +2 or -2 speed.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "[Twice per turn]",
+                    "Effect": "After your attack deals damage, add 1 face down card from your card pool to your momentum.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 7,
             "Health": 21,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "001",
+            "AttackZone": null,
             "transfromation": null
         },
         "002": {
             "Name": "Happy Chaos",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["all", "chaos"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "At the start of the game, add 6 Bullet counters to this card.",
-                "effectPath": ""
-            }, {
-                "Type": "Enhance",
-                "Cost": "Remove 1 Bullet counter",
-                "Effect": "Your Ranged attack gets +1 speed and +1 damage. If it deals damage, look at the top card of your deck. You may add that card to your hand or your momentum.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "all",
+                "chaos"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "At the start of the game, add 6 Bullet counters to this card.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Enhance",
+                    "Cost": "Remove 1 Bullet counter",
+                    "Effect": "Your Ranged attack gets +1 speed and +1 damage. If it deals damage, look at the top card of your deck. You may add that card to your hand or your momentum.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 6,
             "Health": 33,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "002",
+            "AttackZone": null,
             "transfromation": null
         },
         "003": {
             "Name": "I-No",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["fire", "void"],
-            "Keywords": [{
-                "Name": "Mage",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "",
-                "Effect": "Change the zone of this attack. Your rival may have you seal 1 of their foundations to cancel this ability.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After you change the zone of an attack, it gets +2 damage.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "fire",
+                "void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Mage",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "Change the zone of this attack. Your rival may have you seal 1 of their foundations to cancel this ability.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After you change the zone of an attack, it gets +2 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 7,
             "Health": 21,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "003",
+            "AttackZone": null,
             "transfromation": null
         },
         "004": {
             "Name": "Ky Kiske",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["air", "order"],
-            "Keywords": [{
-                "Name": "Champion",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "",
-                "Effect": "This attack gets +1 or -1 speed. If your rival has 6 or more committed foundations, it gets +3 or -3 speed instead.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After your Charge or Ranged attack deals damage, commit or freeze 1 rival foundation.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "air",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Champion",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "This attack gets +1 or -1 speed. If your rival has 6 or more committed foundations, it gets +3 or -3 speed instead.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After your Charge or Ranged attack deals damage, commit or freeze 1 rival foundation.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 6,
             "Health": 30,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "004",
+            "AttackZone": null,
             "transfromation": null
         },
         "005": {
             "Name": "May",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["earth", "water"],
-            "Keywords": [{
-                "Name": "Pirate",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Your deck may include up to 8 copies of 1 Ally attack card.",
-                "effectPath": ""
-            }, {
-                "Type": "Enhance",
-                "Cost": "",
-                "Effect": "Your attack gets +2 damage. If that attack has the same name as another card in your card pool, you may flip 1 foundation and ready it.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "earth",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Pirate",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Your deck may include up to 8 copies of 1 Ally attack card.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "Your attack gets +2 damage. If that attack has the same name as another card in your card pool, you may flip 1 foundation and ready it.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 6,
             "Health": 31,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "005",
+            "AttackZone": null,
             "transfromation": null
         },
         "006": {
             "Name": "Nagoriyuki",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["all", "order"],
-            "Keywords": [{
-                "Name": "Samurai",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Vampire",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "When an ability that adds 1 or more Blood counters to this card resolves, if there are 4 or more Blood counters on it, commit 1 rival card, lose 10 health, and remove all Blood counters from this card. This effect cannot reduce your health below 1.",
-                "effectPath": ""
-            }, {
-                "Type": "Enhance",
-                "Cost": "[Your turn]",
-                "Effect": "Add 1 Blood counter to this card. Your attack gets +4 damage.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "all",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Samurai",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Vampire",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "When an ability that adds 1 or more Blood counters to this card resolves, if there are 4 or more Blood counters on it, commit 1 rival card, lose 10 health, and remove all Blood counters from this card. This effect cannot reduce your health below 1.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Enhance",
+                    "Cost": "[Your turn]",
+                    "Effect": "Add 1 Blood counter to this card. Your attack gets +4 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 6,
             "Health": 32,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "006",
+            "AttackZone": null,
             "transfromation": null
         },
         "007": {
             "Name": "Potemkin",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["earth", "void"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "[Tenacious]",
-                "Effect": "Before you take damage from an attack, if its damage is 4 or greater, it gets -1 damage.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After your attack is completely blocked, your rival discards 1 card.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "earth",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Tenacious]",
+                    "Effect": "Before you take damage from an attack, if its damage is 4 or greater, it gets -1 damage.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After your attack is completely blocked, your rival discards 1 card.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 5,
             "Health": 32,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "007",
+            "AttackZone": null,
             "transfromation": null
         },
         "008": {
             "Name": "Sol Badguy",
             "Cardtype": "Character",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": null,
             "Check": null,
-            "Symbols": ["chaos", "fire"],
-            "Keywords": [{
-                "Name": "Warrior",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Your first attack each turn gains Tension.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After 1 or more cards are added to your momentum, your next check to play a Fire card gets +1.",
-                "effectPath": ""
-            }],
-            "BlockZone": "",
+            "Symbols": [
+                "chaos",
+                "fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Warrior",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Your first attack each turn gains Tension.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After 1 or more cards are added to your momentum, your next check to play a Fire card gets +1.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": 6,
             "Health": 32,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "008",
+            "AttackZone": null,
             "transfromation": null
         },
         "009": {
             "Name": "Kick Start My Heart",
             "Cardtype": "Action",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 4,
-            "Symbols": ["at_air"],
-            "Keywords": [{
-                "Name": "Charge",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "This card gets -1 difficulty if you’ve played a Roman Cancel ability this turn.",
-                "effectPath": ""
-            }, {
-                "Type": "Enhance",
-                "Cost": "",
-                "Effect": "This non-Throw attack gains Echo.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_air"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "This card gets -1 difficulty if you've played a Roman Cancel ability this turn.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "This non-Throw attack gains Echo.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 3,
             "HandSize": null,
@@ -374,515 +490,1118 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "009",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "010": {
+            "Name": "Beta Blade",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "at_air"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Punch",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Each player may play only 1 enhance ability during this attack.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 5,
+            "Damage": 5,
+            "setName": "ggs01",
+            "cardNumber": "010",
+            "AttackZone": "low",
             "transfromation": null
         },
         "011": {
             "Name": "Stun Edge",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_air"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Stun:",
-                "Rating": 1,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [],
+            "Symbols": [
+                "at_air"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Stun:",
+                    "Rating": 1,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+            ],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 2,
             "Damage": 4,
             "setName": "ggs01",
             "cardNumber": "011",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "012": {
             "Name": "At the Ready",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 3,
-            "Symbols": ["at_all"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [],
-            "BlockZone": "",
+            "Symbols": [
+                "at_all"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+            ],
+            "BlockZone": null,
             "BlockMod": null,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": null,
             "Speed": null,
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "012",
+            "AttackZone": null,
             "transfromation": null
         },
         "013": {
             "Name": "Sickle Flash",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 3,
-            "Symbols": ["at_all"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "Add 1 card from your momentum to the top of your deck.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_all"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Add 1 card from your momentum to the top of your deck.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 3,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "013",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "014": {
+            "Name": "Fukyo",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "at_all"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "[Your turn] Flip",
+                    "Effect": "Add 1 Blood counter to your character. Your attack gets +1 speed for each counter on your character (max. 3). If you've played a Roman Cancel ability this turn, this ability has [Tenacious].",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "014",
             "transfromation": null
         },
         "015": {
             "Name": "Gun Flame Feint",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_chaos"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Spell",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After this attack is not blocked, your next check to play a card gets +1.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_chaos"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this attack is not blocked, your next check to play a card gets +1.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 3,
             "Damage": 4,
             "setName": "ggs01",
             "cardNumber": "015",
+            "AttackZone": "low",
             "transfromation": null
         },
         "016": {
             "Name": "What Could This Be?",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_chaos"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "Use the effect below that matches the card type checked to play this attack -",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Attack",
-                "Effect": "This attack gets +2 speed.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Foundation",
-                "Effect": "This attack gets +2 damage.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- All other types",
-                "Effect": "Draw 1 card.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_chaos"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Use the effect below that matches the card type checked to play this attack -",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "",
+                    "Cost": "- Attack",
+                    "Effect": "This attack gets +2 speed.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "",
+                    "Cost": "- Foundation",
+                    "Effect": "This attack gets +2 damage.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "",
+                    "Cost": "- All other types",
+                    "Effect": "Draw 1 card.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 2,
             "Damage": 4,
             "setName": "ggs01",
             "cardNumber": "016",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "017": {
+            "Name": "Gunslinger's Focus",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 3,
+            "Check": 5,
+            "Symbols": [
+                "at_chaos"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "This card gets -2 difficulty if you have played a Roman Cancel ability this turn.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit, Spend 1 momentum",
+                    "Effect": "During this attack, you may try to play 1 card from your hand as a block with a +2 mid block modifier.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "017",
             "transfromation": null
         },
         "018": {
             "Name": "Mr. Dolphin",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_earth"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Slam",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "This attack gets +1 damage for each Ally attack in your card pool.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_earth"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Slam",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "This attack gets +1 damage for each Ally attack in your card pool.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 3,
             "Damage": 2,
             "setName": "ggs01",
             "cardNumber": "018",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "019": {
             "Name": "Sepultura",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["at_earth"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Kick",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "If you have 2 or more momentum, this attack gets +3 damage.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_earth"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Kick",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "If you have 2 or more momentum, this attack gets +3 damage.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "high",
             "Speed": 4,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "019",
+            "AttackZone": "high",
+            "transfromation": null
+        },
+        "020": {
+            "Name": "Garuda Impact",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "at_earth"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Unique",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Flip",
+                    "Effect": "This attack gets +2 or -2 damage. If you have played a Roman Cancel ability this turn, this attack gets +4 or -4 damage instead.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "020",
             "transfromation": null
         },
         "021": {
             "Name": "Stroke the Big Tree",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["at_fire"],
-            "Keywords": [{
-                "Name": "Spell",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "This attack cannot be blocked by mid blocks.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "This attack cannot be blocked by mid blocks.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 4,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "021",
+            "AttackZone": "low",
+            "transfromation": null
+        },
+        "022": {
+            "Name": "Tatami Gaeshi",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 4,
+            "Check": 3,
+            "Symbols": [
+                "at_fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After your rival plays their first enhance ability during this attack, change this attack's zone.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 3,
+            "Damage": 4,
+            "setName": "ggs01",
+            "cardNumber": "022",
+            "AttackZone": "low",
+            "transfromation": null
+        },
+        "023": {
+            "Name": "Flame of Corruption",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "at_fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Unique",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After 1 or more cards are added to your momentum, this attack gets +1 damage.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After you play a Roman Cancel ability, draw 1 card. Discard 1 card.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "023",
             "transfromation": null
         },
         "024": {
             "Name": "Behemoth Typhoon",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 6,
             "Check": 3,
-            "Symbols": ["at_order"],
-            "Keywords": [{
-                "Name": "Charge",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Slam",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After you commit 3 or more cards to pass the check to play this card, your rival commits 2 foundations.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Slam",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After you commit 3 or more cards to pass the check to play this card, your rival commits 2 foundations.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 0,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "high",
             "Speed": 5,
             "Damage": 7,
             "setName": "ggs01",
             "cardNumber": "024",
+            "AttackZone": "high",
             "transfromation": null
         },
         "025": {
             "Name": "Kamuriyuki",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_order"],
-            "Keywords": [{
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "If you have 1 or more counters on your character, this attack gains EX: 2.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "If you have 1 or more counters on your character, this attack gains EX: 2.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 4,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "025",
+            "AttackZone": "low",
+            "transfromation": null
+        },
+            "026": {
+            "Name": "The King of Illyria",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "at_order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Unique",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Add this card to your hand",
+                    "Effect": "Add 1 committed rival foundation from their stage to their hand. If you have played a Roman Cancel ability this turn, this ability has [Tenacious].",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "026",
+            "transfromation": null
+        },
+        "027": {
+            "Name": "Hoverdash",
+            "Cardtype": "Action",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "at_void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "Change the zone of this attack. If you have played a Roman Cancel ability this turn, your attack gets +2 speed.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "[Card Pool] Flip",
+                    "Effect": "After your non-Throw attack deals damage, your rival discards 1 card.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "027",
+            "transfromation": null
+        },
+        "028": {
+            "Name": "Heat Tackle",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "at_void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Punch",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Card Pool] Seal this card",
+                    "Effect": "After your rival plays an ability that adds any number of cards to their hand, cancel it.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 3,
+            "Damage": 6,
+            "setName": "ggs01",
+            "cardNumber": "028",
+            "AttackZone": "high",
             "transfromation": null
         },
         "029": {
             "Name": "Invite Hell",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_void"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "Your rival mills 3. Remove 1 card from their discard pile.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Your rival mills 3. Remove 1 card from their discard pile.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 4,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "029",
+            "AttackZone": "low",
             "transfromation": null
         },
         "030": {
             "Name": "Rolling Movement",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_water"],
-            "Keywords": [{
-                "Name": "Charge",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "While you have a face down card in your card pool, this card’s block modifier gets -2.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "While you have a face down card in your card pool, this card's block modifier gets -2.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 3,
             "Damage": 4,
             "setName": "ggs01",
             "cardNumber": "030",
+            "AttackZone": "low",
             "transfromation": null
         },
         "031": {
             "Name": "Throw Servant",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["at_water"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "If you have another Ally card in your card pool, draw 1 card.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "at_water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "If you have another Ally card in your card pool, draw 1 card.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "high",
             "Speed": 3,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "031",
+            "AttackZone": "high",
+            "transfromation": null
+        },
+        "032": {
+            "Name": "Ocean Buddies",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 4,
+            "Symbols": [
+                "at_water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Flip",
+                    "Effect": "Each player adds 1 card from their discard pile to their card pool. If you have played a Roman Cancel ability this turn, each rival card added to a card pool this way is added face down.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "032",
             "transfromation": null
         },
         "033": {
             "Name": "Faultless Defense",
             "Cardtype": "Action",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["infinity"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "While this card is in your card pool, all attacks get -1 damage.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "[Card Pool]",
-                "Effect": "After you block an attack, gain 1 health.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "infinity"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "While this card is in your card pool, all attacks get -1 damage.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "[Card Pool]",
+                    "Effect": "After you block an attack, gain 1 health.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
@@ -892,27 +1611,32 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "033",
-            "AttackZone": null,
             "transfromation": null
         },
         "034": {
             "Name": "Psych Burst",
             "Cardtype": "Action",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["infinity"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "Remove",
-                "Effect": "After a rival plays an ability on a card in their momentum, cancel that ability and your rival spends that card.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "infinity"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Remove",
+                    "Effect": "After a rival plays an ability on a card in their momentum, cancel that ability and your rival spends that card.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 1,
             "HandSize": null,
@@ -922,91 +1646,119 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "034",
-            "AttackZone": null,
             "transfromation": null
         },
         "035": {
             "Name": "Dust Attack",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["infinity"],
-            "Keywords": [{
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After this attack deals 5 or more damage, this card does not count toward progressive difficulty this turn.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "infinity"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this attack deals 5 or more damage, this card does not count toward progressive difficulty this turn.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 3,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "035",
+            "AttackZone": "low",
             "transfromation": null
         },
         "036": {
             "Name": "Wild Assault",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["infinity"],
-            "Keywords": [{
-                "Name": "Charge",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After you play this card, your rival spends 1 momentum.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "infinity"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After you play this card, your rival spends 1 momentum.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 5,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "036",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "037": {
             "Name": "Cross-Up Protection",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 1,
             "Check": 5,
-            "Symbols": ["infinity"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After you block with this card, if the zone of this attack has been changed, it deals no damage.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "infinity"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After you block with this card, if the zone of this attack has been changed, it deals no damage.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1016,366 +1768,891 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "037",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "038": {
+            "Name": "Antidepressant Scale",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 4,
+            "Check": 3,
+            "Symbols": [
+                "fire",
+                "void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "Seal 1 face up foundation",
+                    "Effect": "Change the zone of this attack.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 3,
+            "Damage": 3,
+            "setName": "ggs01",
+            "cardNumber": "038",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "039": {
+            "Name": "Arisugawa Sparkle",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "earth",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Your next attack gets +1 speed or +1 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 5,
+            "Damage": 4,
+            "setName": "ggs01",
+            "cardNumber": "039",
+            "AttackZone": "high",
             "transfromation": null
         },
         "040": {
             "Name": "Bloodsucking Universe",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["all", "order"],
-            "Keywords": [{
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Throw",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After this attack deals damage, gain 2 health. If you have 2 or more counters on your character, gain 4 health instead.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "all",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Throw",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this attack deals damage, gain 2 health. If you have 2 or more counters on your character, gain 4 health instead.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "high",
             "Speed": 3,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "040",
+            "AttackZone": "high",
             "transfromation": null
         },
         "041": {
             "Name": "Deus Ex Machina",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 2,
-            "Symbols": ["all", "chaos"],
-            "Keywords": [{
-                "Name": "EX:",
-                "Rating": 3,
-                "effectPath": ""
-            }, {
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "Discard X cards. Draw X cards and add X Bullet counters to your character. X cannot be greater than the number of cards in your hand.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "all",
+                "chaos"
+            ],
+            "Keywords": [
+                {
+                    "Name": "EX:",
+                    "Rating": 3,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Discard X cards. Draw X cards and add X Bullet counters to your character. X cannot be greater than the number of cards in your hand.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 4,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "041",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "042": {
+            "Name": "Dire Eclat",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "air",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Your next Charge or Ranged attack gets +1 speed and +1 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 4,
+            "Damage": 5,
+            "setName": "ggs01",
+            "cardNumber": "042",
+            "AttackZone": "high",
+            "transfromation": null
+        },
+        "043": {
+            "Name": "Fafnir",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 6,
+            "Check": 3,
+            "Symbols": [
+                "chaos",
+                "fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Punch",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Spend 1 momentum",
+                    "Effect": "After this attack is completely blocked, your rival loses 1 health for each card in their hand (max. 3).",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 5,
+            "Damage": 7,
+            "setName": "ggs01",
+            "cardNumber": "043",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "044": {
             "Name": "Great Yamada Attack",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 8,
             "Check": 3,
-            "Symbols": ["earth", "water"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Powerful:",
-                "Rating": 2,
-                "effectPath": ""
-            }, {
-                "Name": "Slam",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "This card gets -2 difficulty for each Ally attack card in your card pool (max. -8).",
-                "effectPath": ""
-            }, {
-                "Type": "Blitz",
-                "Cost": "Flip 3 Ally attack cards in your card pool",
-                "Effect": "Your rival adds the top card of their deck to their card pool face down. It cannot leave their card pool this turn.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "earth",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Powerful:",
+                    "Rating": 2,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Slam",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "This card gets -2 difficulty for each Ally attack card in your card pool (max. -8).",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Blitz",
+                    "Cost": "Flip 3 Ally attack cards in your card pool",
+                    "Effect": "Your rival adds the top card of their deck to their card pool face down. It cannot leave their card pool this turn.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "low",
             "Speed": 6,
             "Damage": 6,
             "setName": "ggs01",
             "cardNumber": "044",
+            "AttackZone": "low",
             "transfromation": null
         },
         "045": {
             "Name": "Hammer Fall",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["earth", "void"],
-            "Keywords": [{
-                "Name": "Slam",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [],
+            "Symbols": [
+                "earth",
+                "void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Slam",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+            ],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 1,
             "Damage": 7,
             "setName": "ggs01",
             "cardNumber": "045",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "046": {
             "Name": "Loop the Loop",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 3,
-            "Symbols": ["air", "water"],
-            "Keywords": [{
-                "Name": "Frenzy",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Face down cards in your card pool do not count toward progressive difficulty to play this card.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "[Card Pool]",
-                "Effect": "At the start of the End Phase, add 1 other card from your card pool to your hand.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "air",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Frenzy",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Face down cards in your card pool do not count toward progressive difficulty to play this card.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "[Card Pool]",
+                    "Effect": "At the start of the End Phase, add 1 other card from your card pool to your hand.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 3,
             "Damage": 3,
             "setName": "ggs01",
             "cardNumber": "046",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "047": {
             "Name": "Megalomania",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 3,
-            "Symbols": ["fire", "void"],
-            "Keywords": [{
-                "Name": "Ranged",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Spell",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "While this card is in your card pool, if there are 3 or more sealed cards in play, your other attacks get +1 speed and +1 damage.",
-                "effectPath": ""
-            }, {
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "Seal 1 card in your rival’s stage. Your rival may spend 2 momentum to cancel this effect.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "fire",
+                "void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "While this card is in your card pool, if there are 3 or more sealed cards in play, your other attacks get +1 speed and +1 damage.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Seal 1 card in your rival's stage. Your rival may spend 2 momentum to cancel this effect.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "high",
             "Speed": 5,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "047",
+            "AttackZone": "high",
             "transfromation": null
         },
         "048": {
             "Name": "Potemkin Buster",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 5,
             "Check": 2,
-            "Symbols": ["earth", "void"],
-            "Keywords": [{
-                "Name": "Tension",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Throw",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Your rival cannot play response abilities during the Damage Step of this attack.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After this attack is not completely blocked, it gets +6 damage.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "earth",
+                "void"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Throw",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Your rival cannot play response abilities during the Damage Step of this attack.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this attack is not completely blocked, it gets +6 damage.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 3,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 2,
             "Damage": 6,
             "setName": "ggs01",
             "cardNumber": "048",
+            "AttackZone": "mid",
             "transfromation": null
         },
         "049": {
             "Name": "Ride the Lightning",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 4,
             "Check": 3,
-            "Symbols": ["air", "order"],
-            "Keywords": [{
-                "Name": "Charge",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Spell",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "Your rival must commit 1 foundation as an additional cost to play response abilities during this attack.",
-                "effectPath": ""
-            }, {
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After this attack deals damage, draw 1 card. If your rival has 6 or more committed foundations, draw 2 cards instead.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "air",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Charge",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Spell",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "Your rival must commit 1 foundation as an additional cost to play response abilities during this attack.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this attack deals damage, draw 1 card. If your rival has 6 or more committed foundations, draw 2 cards instead.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 4,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "049",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "050": {
+            "Name": "Standing Kick",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "all",
+                "order"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Kick",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "Each player draws 1 card.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 5,
+            "Damage": 4,
+            "setName": "ggs01",
+            "cardNumber": "050",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "051": {
+            "Name": "Steady Aim",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "all",
+                "chaos"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Remove 1 counter from your character",
+                    "Effect": "After this attack is completely blocked, it deals 3 damage during the Damage Step.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": null,
+            "BlockMod": null,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "051",
+            "AttackZone": null,
+            "transfromation": null
+        },
+        "052": {
+            "Name": "Stop and Dash",
+            "Cardtype": "Attack",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 5,
+            "Check": 3,
+            "Symbols": [
+                "air",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ranged",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Tension",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Card Pool] Seal this card",
+                    "Effect": "After an attack is played, unflip 1 card in your card pool.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": 4,
+            "Damage": 4,
+            "setName": "ggs01",
+            "cardNumber": "052",
+            "AttackZone": "high",
             "transfromation": null
         },
         "053": {
             "Name": "Tyrant Rave",
             "Cardtype": "Attack",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 7,
             "Check": 3,
-            "Symbols": ["chaos", "fire"],
-            "Keywords": [{
-                "Name": "Punch",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "",
-                "Effect": "After you check an attack to play this card, add the checked attack to your momentum.",
-                "effectPath": ""
-            }, {
-                "Type": "Blitz",
-                "Cost": "",
-                "Effect": "This attack gets +2 speed and +2 damage for each other attack you have played this turn.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "chaos",
+                "fire"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Punch",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After you check an attack to play this card, add the checked attack to your momentum.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Blitz",
+                    "Cost": "",
+                    "Effect": "This attack gets +2 speed and +2 damage for each other attack you have played this turn.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 1,
             "HandSize": null,
             "Health": null,
             "Stamina": null,
-            "AttackZone": "mid",
             "Speed": 5,
             "Damage": 5,
             "setName": "ggs01",
             "cardNumber": "053",
+            "AttackZone": "mid",
+            "transfromation": null
+        },
+        "054": {
+            "Name": "A Promised Toast",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "air",
+                "all"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "This attack gets +2 speed. You may discard 1 card. If you do, this attack gets +4 speed instead.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "054",
             "transfromation": null
         },
         "055": {
             "Name": "Alone Infection",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["chaos", "earth"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "Flip",
-                "Effect": "After your attack deals 5 or more damage, draw 1 card or add the top card of your deck to your momentum.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "chaos",
+                "earth"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your attack deals 5 or more damage, draw 1 card or add the top card of your deck to your momentum.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 3,
             "HandSize": null,
@@ -1385,27 +2662,69 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "055",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "056": {
+            "Name": "Analytical Observation",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "earth",
+                "fire"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your rival blocks your attack, flip the card they blocked with.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "056",
             "transfromation": null
         },
         "057": {
             "Name": "Armor-Clad Faith",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 1,
             "Check": 5,
-            "Symbols": ["earth", "void"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "Flip",
-                "Effect": "After your rival plays an attack, it loses 1 keyword ability of your choice.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "earth",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your rival plays an attack, it loses 1 keyword ability of your choice.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 3,
             "HandSize": null,
@@ -1415,27 +2734,105 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "057",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "058": {
+            "Name": "Awakened Samurai",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "fire",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Sacrifice",
+                    "Effect": "After your attack deals 5 or more damage, add the top card of your rival's deck to their card pool face down.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "058",
+            "transfromation": null
+        },
+        "059": {
+            "Name": "Calling from the Shadow",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "chaos",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your rival plays a non-character ability that adds any number of cards to their momentum, cancel it.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "059",
             "transfromation": null
         },
         "060": {
             "Name": "Drift",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 1,
             "Check": 5,
-            "Symbols": ["all", "earth"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "When you try to block an attack with this card, return that attack to its printed speed.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "all",
+                "earth"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Static",
+                    "Cost": "",
+                    "Effect": "When you try to block an attack with this card, return that attack to its printed speed.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 4,
             "HandSize": null,
@@ -1445,27 +2842,69 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "060",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "061": {
+            "Name": "Elegant Grim Reaper",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "all",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Draw 2 cards. Your rival may discard 1 card to cancel this ability.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "061",
             "transfromation": null
         },
         "062": {
             "Name": "Find Your One Way",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["chaos", "fire"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Sacrifice",
-                "Effect": "Your next check to play a card gets +1 for each card in your momentum.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "chaos",
+                "fire"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Your next check to play a card gets +1 for each card in your momentum.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
@@ -1475,27 +2914,69 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "062",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "063": {
+            "Name": "Forbidden Hair Wielder",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "air",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your attack deals damage, your rival mills 3.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "063",
             "transfromation": null
         },
         "064": {
             "Name": "Hard Rock Witch",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["fire", "void"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "Flip",
-                "Effect": "After your rival plays a non-character ability that modifies the damage of an attack, cancel it.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "fire",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your rival plays a non-character ability that modifies the damage of an attack, cancel it.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1505,37 +2986,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "064",
-            "AttackZone": null,
             "transfromation": null
         },
         "065": {
             "Name": "Heaven or Hell",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 5,
-            "Symbols": ["fire", "order"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Sacrifice",
-                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Mill 5. This attack gets +1 speed and +1 damage for each attack milled this way.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Reveal 1 card from your hand. Add 1 copy of the revealed card from your discard pile to your hand.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "fire",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead\n- Mill 5. This attack gets +1 speed and +1 damage for each attack milled this way.\n- Reveal 1 card from your hand. Add 1 copy of the revealed card from your discard pile to your hand.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1545,27 +3022,69 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "065",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "066": {
+            "Name": "Irreverent Attitude",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "earth",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After an attack is blocked, the next attack this turn gets +2 or -3 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "066",
             "transfromation": null
         },
         "067": {
             "Name": "Jealous Homunculus",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 1,
             "Check": 5,
-            "Symbols": ["chaos", "order"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Flip",
-                "Effect": "Your rival spends 1 momentum. Only playable if your rival has more momentum than you.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "chaos",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Flip",
+                    "Effect": "Your rival spends 1 momentum. Only playable if your rival has more momentum than you.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1575,37 +3094,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "067",
-            "AttackZone": null,
             "transfromation": null
         },
         "068": {
             "Name": "Jellyfish Pirates",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 5,
-            "Symbols": ["void", "water"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Sacrifice",
-                "Effect": "Choose 1. If you have added 2 or more cards to your momentum this turn, choose both instead --",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Your rival discards 1 card if they have 3 or more cards in their hand.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Ready 2 foundations that have not been readied this Combat Phase.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "void",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Choose 1. If you have added 2 or more cards to your momentum this turn, choose both instead\n- Your rival discards 1 card if they have 3 or more cards in their hand.\n- Ready 2 foundations that have not been readied this Combat Phase.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -1615,27 +3130,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "068",
-            "AttackZone": null,
             "transfromation": null
         },
         "069": {
             "Name": "Let's Rock!",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["all", "chaos"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "Remove",
-                "Effect": "After this card is discarded during the Combat Phase, add the top card of your deck to your momentum. Only 1 copy of this ability can be played this turn.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "all",
+                "chaos"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Remove",
+                    "Effect": "After this card is discarded during the Combat Phase, add the top card of your deck to your momentum. Only 1 copy of this ability can be played this turn.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 3,
             "HandSize": null,
@@ -1645,27 +3166,291 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "069",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "070": {
+            "Name": "Mai Fighting Style",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "order",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Tenacious] Flip",
+                    "Effect": "After 1 or more rival foundations are built or readied during the Combat Phase, commit and freeze 1 of them.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "070",
+            "transfromation": null
+        },
+        "071": {
+            "Name": "Queen of Compassion",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "all",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "This attack gets -2 speed. You may discard 1 card. If you do, this attack gets -4 speed instead.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "071",
+            "transfromation": null
+        },
+        "072": {
+            "Name": "Ramlethal's Greatswords",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "fire",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "Name a block zone. This attack gets +3 damage. Your rival may reveal 1 card from their hand with a block zone that matches the named zone to cancel this effect.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "072",
+            "transfromation": null
+        },
+        "073": {
+            "Name": "Rivals in Battle",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 3,
+            "Check": 5,
+            "Symbols": [
+                "chaos",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Once per turn, Tenacious]",
+                    "Effect": "After you gain 1 or more momentum during the Combat Phase, ready this foundation.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "073",
+            "transfromation": null
+        },
+        "074": {
+            "Name": "Scales of Juno",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "void",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Flip",
+                    "Effect": "After your rival plays a non-character ability that causes a card to leave their card pool, cancel it.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "074",
+            "transfromation": null
+        },
+        "075": {
+            "Name": "Scare Tactics",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "air",
+                "chaos"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "This attack gets +1 speed. If it is not blocked, your next check gets +2.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 3,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "075",
+            "transfromation": null
+        },
+        "076": {
+            "Name": "Secretary of Defense",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "order",
+                "void"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "Commit",
+                    "Effect": "After you seal 1 or more rival foundations, commit 1 of them.",
+                    "effectPath": ""
+                },
+                {
+                    "Type": "Response",
+                    "Cost": "Commit",
+                    "Effect": "After you commit 1 or more rival foundations, seal 1 of them. Seal that foundation again at the beginning of the next turn.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "076",
             "transfromation": null
         },
         "077": {
             "Name": "The Disaster of Passion",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["earth", "water"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "[Once per turn]",
-                "Effect": "After an attack is completely blocked, draw 1 card. Discard 1 card.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "earth",
+                "water"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Once per turn]",
+                    "Effect": "After an attack is completely blocked, draw 1 card. Discard 1 card.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -1675,27 +3460,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "077",
-            "AttackZone": null,
             "transfromation": null
         },
         "078": {
             "Name": "The Roar of the Spark",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["air", "order"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Commit",
-                "Effect": "This attack gains Stun",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "air",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "This attack gains Stun",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1705,31 +3496,43 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "078",
-            "AttackZone": null,
             "transfromation": null
         },
         "079": {
             "Name": "The Town Inside Me",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["air", "water"],
-            "Keywords": [{
-                "Name": "Ally",
-                "Rating": null,
-                "effectPath": ""
-            }, {
-                "Name": "Weapon",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Response",
-                "Cost": "[Once per turn]",
-                "Effect": "After you play an Ally card, gain 1 health.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "air",
+                "water"
+            ],
+            "Keywords": [
+                {
+                    "Name": "Ally",
+                    "Rating": null,
+                    "effectPath": ""
+                },
+                {
+                    "Name": "Weapon",
+                    "Rating": null,
+                    "effectPath": ""
+                }
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "[Once per turn]",
+                    "Effect": "After you play an Ally card, gain 1 health.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 3,
             "HandSize": null,
@@ -1739,37 +3542,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "079",
-            "AttackZone": null,
             "transfromation": null
         },
         "080": {
             "Name": "Tricky Spinner",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 5,
-            "Symbols": ["air", "all"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Sacrifice",
-                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Add 1 card from your hand to your card pool face up. Add 1 card from your card pool to your hand.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Draw 1 card. Add 1 card from your hand to the top of your deck.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "air",
+                "all"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead\n- Add 1 card from your hand to your card pool face up. Add 1 card from your card pool to your hand.\n- Draw 1 card. Add 1 card from your hand to the top of your deck.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -1779,37 +3578,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "080",
-            "AttackZone": null,
             "transfromation": null
         },
         "081": {
             "Name": "Walking Fortress",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 3,
             "Check": 5,
-            "Symbols": ["chaos", "earth"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Sacrifice",
-                "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead --",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Your next check to play a card gets +3.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Build 1 card from your discard pile face down.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "chaos",
+                "earth"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Sacrifice",
+                    "Effect": "Choose 1. If you added 2 or more cards to your momentum this turn, choose both instead\n- Your next check to play a card gets +3.\n- Build 1 card from your discard pile face down.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -1819,27 +3614,33 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "081",
-            "AttackZone": null,
             "transfromation": null
         },
         "082": {
             "Name": "What do you fight for",
             "Cardtype": "Foundation",
-            "Legality": ["Legacy"],
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
             "Difficulty": 2,
             "Check": 5,
-            "Symbols": ["all", "order"],
-            "Keywords": [{
-                "Name": "",
-                "Rating": null,
-                "effectPath": ""
-            }],
-            "Abilities": [{
-                "Type": "Enhance",
-                "Cost": "Flip",
-                "Effect": "Draw 1 card.",
-                "effectPath": ""
-            }],
+            "Symbols": [
+                "all",
+                "order"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Flip",
+                    "Effect": "Draw 1 card.",
+                    "effectPath": ""
+                }
+            ],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -1849,7 +3650,114 @@
             "Damage": null,
             "setName": "ggs01",
             "cardNumber": "082",
-            "AttackZone": null,
+            "transfromation": null
+        },
+        "083": {
+            "Name": "Whirling Ninjutsu",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "air",
+                "earth"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "",
+                    "Effect": "If the speed of this attack is greater than its printed speed, it gets +1 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "mid",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "083",
+            "transfromation": null
+        },
+        "084": {
+            "Name": "Wolf's Ferocity",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 1,
+            "Check": 5,
+            "Symbols": [
+                "all",
+                "fire"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Response",
+                    "Cost": "",
+                    "Effect": "After this card enters your discard pile from your hand or deck during the Enhance Step, this attack gets +1 speed and +1 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "low",
+            "BlockMod": 2,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "084",
+            "transfromation": null
+        },
+        "085": {
+            "Name": "Youthful Exuberance",
+            "Cardtype": "Foundation",
+            "Legality": [
+                "Rochester Retro",
+                "Retro",
+                "Standard",
+                "Legacy"
+            ],
+            "Difficulty": 2,
+            "Check": 5,
+            "Symbols": [
+                "air",
+                "fire"
+            ],
+            "Keywords": [
+            ],
+            "Abilities": [
+                {
+                    "Type": "Enhance",
+                    "Cost": "Commit",
+                    "Effect": "This Ranged or Spell attack gets +2 speed or +2 damage.",
+                    "effectPath": ""
+                }
+            ],
+            "BlockZone": "high",
+            "BlockMod": 1,
+            "HandSize": null,
+            "Health": null,
+            "Stamina": null,
+            "Speed": null,
+            "Damage": null,
+            "setName": "ggs01",
+            "cardNumber": "085",
             "transfromation": null
         }
     }
