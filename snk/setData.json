@@ -28,7 +28,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent discards the chosen card.        </div>",
+                "Effect": "Your opponent discards the chosen card.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -68,7 +68,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals your momentum.        </div>",
+                "Effect": "X equals your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -112,7 +112,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent discards the chosen cards.        </div>",
+                "Effect": "Your opponent discards the chosen cards.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -156,7 +156,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals your momentum.        </div>",
+                "Effect": "X equals your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -191,7 +191,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent may play this ability.        </div>",
+                "Effect": "Your opponent may play this ability.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -244,7 +244,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "For each foundation or asset destroyed this way they may prevent 1 card of their choice from being discarded.        </div>",
+                "Effect": "For each foundation or asset destroyed this way they may prevent 1 card of their choice from being discarded.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -293,7 +293,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control check.        </div>",
+                "Effect": "X equals the control check.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -328,7 +328,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "You may play this ability while committed.        </div>",
+                "Effect": "You may play this ability while committed.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -363,7 +363,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "You may not ready copies of this card.        </div>",
+                "Effect": "You may not ready copies of this card.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -403,7 +403,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If the revealed card is an attack, gain vitality equal to its control. Draw the revealed card.        </div>",
+                "Effect": "If the revealed card is an attack, gain vitality equal to its control. Draw the revealed card.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -438,7 +438,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Draw the revealed card.        </div>",
+                "Effect": "Draw the revealed card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -477,7 +477,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Draw the revealed card.        </div>",
+                "Effect": "Draw the revealed card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -512,7 +512,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Draw the revealed card.        </div>",
+                "Effect": "Draw the revealed card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -556,7 +556,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If the revealed card is an attack, gain vitality equal to its control.        </div>",
+                "Effect": "If the revealed card is an attack, gain vitality equal to its control.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -600,7 +600,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if you have drawn cards during your Combat Phase this turn.        </div>",
+                "Effect": "Only playable if you have drawn cards during your Combat Phase this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -673,7 +673,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If the revealed card is a copy of the named card, draw it.        </div>",
+                "Effect": "If the revealed card is a copy of the named card, draw it.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -708,7 +708,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If the revealed card is an attack, gain vitality equal to its control.        </div>",
+                "Effect": "If the revealed card is an attack, gain vitality equal to its control.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -770,16 +770,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "If your stun attack deals damage, your opponent may not play response cards or abilities for the rest of this turn.",
@@ -852,16 +851,11 @@
             "Check": 3,
             "Symbols": ["death", "evil", "life"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -942,7 +936,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals your momentum.        </div>",
+                "Effect": "X equals your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1094,16 +1088,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit, commit 1 foundation",
                 "Effect": "If your attack deals damage, ready 2 foundations in your staging area.",
@@ -1142,16 +1135,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -1233,7 +1221,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack was played as a Reversal.        </div>",
+                "Effect": "Only playable if this attack was played as a Reversal.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1299,16 +1287,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -1321,7 +1304,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack was played as a Reversal.        </div>",
+                "Effect": "Only playable if this attack was played as a Reversal.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1356,7 +1339,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "You may not ready copies of this card.        </div>",
+                "Effect": "You may not ready copies of this card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1441,7 +1424,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If successful, add the chosen foundation to your staging area.        </div>",
+                "Effect": "If successful, add the chosen foundation to your staging area.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1468,16 +1451,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "After this card enters your staging area, place 2 Caffeine tokens on your character card.",
@@ -1490,7 +1472,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of Caffeine tokens on your character card.        </div>",
+                "Effect": "X equals the number of Caffeine tokens on your character card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1521,16 +1503,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -1638,16 +1615,11 @@
             "Check": 2,
             "Symbols": ["earth", "fire", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -1690,7 +1662,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals either the number of tokens on your character card or the number of resource symbols shared by that attack and your character card.        </div>",
+                "Effect": "X equals either the number of tokens on your character card or the number of resource symbols shared by that attack and your character card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1770,7 +1742,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Take all copies of the chosen foundation from your discard pile and add them to your staging area.        </div>",
+                "Effect": "Take all copies of the chosen foundation from your discard pile and add them to your staging area.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1810,7 +1782,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Play the chosen card as normal (no control check necessary).        </div>",
+                "Effect": "Play the chosen card as normal (no control check necessary).",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1837,16 +1809,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "If this attack deals damage, your opponent discards 2 momentum.",
@@ -1937,7 +1908,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent discards X momentum. X equals the lowest control revealed this way.        </div>",
+                "Effect": "Your opponent discards X momentum. X equals the lowest control revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1960,16 +1931,11 @@
             "Check": 2,
             "Symbols": ["air", "evil", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -2025,7 +1991,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Reveal your momentum. If you reveal the named card this way, take 1 card from the top of your deck and add it to your momentum.        </div>",
+                "Effect": "Reveal your momentum. If you reveal the named card this way, take 1 card from the top of your deck and add it to your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -2052,16 +2018,11 @@
                 "Rating": 1,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -2074,7 +2035,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent reveals their momentum and discards all copies of the named card revealed this way.        </div>",
+                "Effect": "Your opponent reveals their momentum and discards all copies of the named card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2149,7 +2110,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If it is an action, a character, or an attack you do not wish to play, discard the revealed card.        </div>",
+                "Effect": "If it is an action, a character, or an attack you do not wish to play, discard the revealed card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2189,7 +2150,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X may not be greater than the printed damage of the attack.        </div>",
+                "Effect": "X may not be greater than the printed damage of the attack.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -2216,16 +2177,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Your attack gets +3 damage. Only playable if you have gained vitality this turn.",
@@ -2280,7 +2240,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the damage dealt.        </div>",
+                "Effect": "X equals the damage dealt.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2349,7 +2309,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of momentum discarded for this attack's Powerful ability.        </div>",
+                "Effect": "X equals the number of momentum discarded for this attack's Powerful ability.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2392,7 +2352,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the vitality you lost.        </div>",
+                "Effect": "X equals the vitality you lost.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2462,7 +2422,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the destroyed foundation.        </div>",
+                "Effect": "X equals the control of the destroyed foundation.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2497,7 +2457,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the destroyed foundation.        </div>",
+                "Effect": "X equals the control of the destroyed foundation.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -2527,7 +2487,7 @@
             "Abilities": [{
                 "Type": "E",
                 "Cost": "Commit",
-                "Effect": "After you play a Fire card, discard up to 2 <img src=\"images/icons/fire.png?20230902\" alt=\"fire\" /> cards from your card pool.",
+                "Effect": "After you play a Fire card, discard up to 2 Fire cards from your card pool.",
                 "effectPath": ""
             }, {
                 "Type": "E",
@@ -2632,7 +2592,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack has not receieved any other damage bonuses this turn.        </div>",
+                "Effect": "Only playable if this attack has not receieved any other damage bonuses this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -2904,7 +2864,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack was played as a Reversal.        </div>",
+                "Effect": "Only playable if this attack was played as a Reversal.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -2977,7 +2937,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Use the discarded card's control for the check (no control check necessary).        </div>",
+                "Effect": "Use the discarded card's control for the check (no control check necessary).",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3054,7 +3014,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of face up cards in your momentum.        </div>",
+                "Effect": "X equals the number of face up cards in your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3089,7 +3049,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Use the discarded card's control for the check (no control check necessary).        </div>",
+                "Effect": "Use the discarded card's control for the check (no control check necessary).",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3265,7 +3225,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This attack gets +1 speed.        </div>",
+                "Effect": "This attack gets +1 speed.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -3292,16 +3252,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -3417,7 +3372,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack's zone is high or low.        </div>",
+                "Effect": "Only playable if this attack's zone is high or low.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3487,7 +3442,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "When committing foundations to make the control check successful, each momentum you discarded this way counts as 1 committed foundation.        </div>",
+                "Effect": "When committing foundations to make the control check successful, each momentum you discarded this way counts as 1 committed foundation.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3522,7 +3477,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of resource symbols on the attack that are not shared by your opponent's character card.        </div>",
+                "Effect": "X equals the number of resource symbols on the attack that are not shared by your opponent's character card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3561,7 +3516,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of Air cards in your card pool.        </div>",
+                "Effect": "X equals the number of Air cards in your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3656,7 +3611,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "When committing foundations to make this control check successful, each momentum you discarded this way counts as 1 committed foundation.        </div>",
+                "Effect": "When committing foundations to make this control check successful, each momentum you discarded this way counts as 1 committed foundation.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -3763,7 +3718,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "When committing foundations to make the control check successful, each momentum you discarded this way counts as 1 committed foundation.        </div>",
+                "Effect": "When committing foundations to make the control check successful, each momentum you discarded this way counts as 1 committed foundation.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3803,7 +3758,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of copies of the named card revealed this way.        </div>",
+                "Effect": "X equals the number of copies of the named card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3843,7 +3798,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the difficulty of the named card.        </div>",
+                "Effect": "X equals the difficulty of the named card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3866,16 +3821,11 @@
             "Check": 2,
             "Symbols": ["earth", "good", "life"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "As an additional cost to play this card, discard 1 card from your hand or discard 1 momentum.",
@@ -3888,7 +3838,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "While this attack is in your card pool, any damage you are dealt gets -X. X equals the highest control in your opponent's card pool.        </div>",
+                "Effect": "While this attack is in your card pool, any damage you are dealt gets -X. X equals the highest control in your opponent's card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3932,7 +3882,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the card revealed this way.        </div>",
+                "Effect": "X equals the control of the card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3967,7 +3917,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Gain 2 vitality for each action card revealed this way.        </div>",
+                "Effect": "Gain 2 vitality for each action card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4019,7 +3969,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the card revealed this way.        </div>",
+                "Effect": "X equals the control of the card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4098,7 +4048,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the card revealed this way.        </div>",
+                "Effect": "X equals the control of the card revealed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4143,7 +4093,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if you have taken damage this turn.        </div>",
+                "Effect": "Only playable if you have taken damage this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4205,16 +4155,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Choose 1 attack in your card pool.",
@@ -4232,7 +4181,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Each opponent loses 1 vitality for each non-attack card discarded this way.        </div>",
+                "Effect": "Each opponent loses 1 vitality for each non-attack card discarded this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4315,7 +4264,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of momentum cards removed this way.        </div>",
+                "Effect": "X equals the number of momentum cards removed this way.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4457,7 +4406,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack has a higher damage than speed.        </div>",
+                "Effect": "Only playable if this attack has a higher damage than speed.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -4591,7 +4540,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the control of the blocked attack.        </div>",
+                "Effect": "X equals the control of the blocked attack.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4740,7 +4689,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if this attack was played as a Reversal.        </div>",
+                "Effect": "Only playable if this attack was played as a Reversal.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4775,7 +4724,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if your opponent has given a damage bonus to an attack this Combat Phase.        </div>",
+                "Effect": "Only playable if your opponent has given a damage bonus to an attack this Combat Phase.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4867,16 +4816,15 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Discard 1 momentum",
                 "Effect": "Your weapon attack gets +2 speed.",
@@ -4961,7 +4909,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X cannot be more than the number of Multiple copies in your card pool.        </div>",
+                "Effect": "X cannot be more than the number of Multiple copies in your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4996,7 +4944,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of Multiple copies in your card pool.        </div>",
+                "Effect": "X equals the number of Multiple copies in your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -5099,7 +5047,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Only playable if you have a Water card in your card pool.        </div>",
+                "Effect": "Only playable if you have a Water card in your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -5187,16 +5135,15 @@
             "Check": 5,
             "Symbols": ["evil", "good", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "R",
                 "Cost": "Discard 1 momentum, discard 1 Reversal",
                 "Effect": "Before you would block, your opponent's attack is partially blocked. You may play a Reversal as normal.",
@@ -5243,7 +5190,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Discard 1 Multiple copy of this attack from your card pool for each foundation your opponent committed.        </div>",
+                "Effect": "Discard 1 Multiple copy of this attack from your card pool for each foundation your opponent committed.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -5350,7 +5297,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the damage dealt.        </div>",
+                "Effect": "X equals the damage dealt.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -5393,7 +5340,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent may commit 2 foundations to negate this ability.        </div>",
+                "Effect": "Your opponent may commit 2 foundations to negate this ability.",
                 "effectPath": ""
             }],
             "BlockZone": "high",

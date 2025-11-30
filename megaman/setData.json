@@ -179,12 +179,7 @@
                 "Rating": 2,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -295,16 +290,11 @@
             "Check": 5,
             "Symbols": ["all", "good", "order"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Destroy",
                 "Effect": "Draw 2 cards.",
@@ -364,12 +354,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -454,12 +439,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -677,7 +657,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you play this attack, (not as a block) you may not play attacks for the rest of this turn.        </div>",
+                "Effect": "After you play this attack, (not as a block) you may not play attacks for the rest of this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -767,7 +747,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you block with this card, draw 1 card.        </div>",
+                "Effect": "After you block with this card, draw 1 card.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -797,7 +777,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After this card is discarded from your card pool during the Combat Phase, your opponent loses 2 vitality.        </div>",
+                "Effect": "After this card is discarded from your card pool during the Combat Phase, your opponent loses 2 vitality.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -974,12 +954,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "high",
             "BlockMod": 2,
             "HandSize": null,
@@ -1034,12 +1009,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
@@ -1090,16 +1060,11 @@
             "Check": 5,
             "Symbols": ["air", "earth", "fire"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Destroy, discard 1 momentum",
                 "Effect": "Your attack gets +6 damage and +3 speed.",
@@ -1947,12 +1912,7 @@
                 "Rating": 1,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 2,
             "HandSize": null,
@@ -2111,16 +2071,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "F",
                 "Cost": "Commit",
                 "Effect": "The next time you attempt to play a non-attack card with a printed difficulty of 6 or less this turn, the control check to play it passes (no control check necessary).",
@@ -2151,16 +2106,11 @@
             "Check": 5,
             "Symbols": ["air", "earth", "fire"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "R",
                 "Cost": "Commit",
                 "Effect": "After an attack is discarded from your card pool during the Combat Phase, draw 1 card.",

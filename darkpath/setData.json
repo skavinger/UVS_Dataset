@@ -144,12 +144,7 @@
                 "Rating": 3,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "low",
             "BlockMod": 2,
             "HandSize": null,
@@ -181,7 +176,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If all copies of this card deal damage, discard this card and all copies of it from your card pool.        </div>",
+                "Effect": "If all copies of this card deal damage, discard this card and all copies of it from your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -245,7 +240,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of cards in your momentum.        </div>",
+                "Effect": "X equals the number of cards in your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -275,7 +270,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you completely block with this attack, do not clear this card during the End Phase. While this card is in your card pool, your attacks get +1 damage and any attack that deals damage is immediately added to your momentum.        </div>",
+                "Effect": "After you completely block with this attack, do not clear this card during the End Phase. While this card is in your card pool, your attacks get +1 damage and any attack that deals damage is immediately added to your momentum.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -328,16 +323,11 @@
             "Check": 3,
             "Symbols": ["air", "earth", "fire"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "",
                 "Cost": "If this attack is completely blocked, it still deals half damage (rounded up).EDiscard 2 momentum",
                 "Effect": "Switch this card's speed and damage.",
@@ -404,7 +394,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This card may only block ranged attacks.After you block with this card, leave this card in your card pool until your next End Phase. While this card is in your card pool, your control checks get +1.        </div>",
+                "Effect": "This card may only block ranged attacks.After you block with this card, leave this card in your card pool until your next End Phase. While this card is in your card pool, your control checks get +1.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -707,16 +697,11 @@
             "Check": 3,
             "Symbols": ["air", "earth", "good"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "If this attack is completely blocked, it still deals half damage (rounded up).You may not play this card if there is a ranged attack in your card pool.Charlie E",
                 "Cost": "",
                 "Effect": "If this attack deals damage, your opponent discards all cards in their momentum.",
@@ -883,7 +868,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If this attack is blocked, you must pass as your next form this turn.        </div>",
+                "Effect": "If this attack is blocked, you must pass as your next form this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -994,7 +979,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.You must discard 5 momentum as an additional cost to play this card as a reversal. If you do, this card gets -4 difficulty.        </div>",
+                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0.You must discard 5 momentum as an additional cost to play this card as a reversal. If you do, this card gets -4 difficulty.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1028,7 +1013,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you block with this card, your opponent may not play powerful abilities for the rest of the turn.        </div>",
+                "Effect": "After you block with this card, your opponent may not play powerful abilities for the rest of the turn.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -1183,7 +1168,7 @@
             "Abilities": [{
                 "Type": "R",
                 "Cost": "Discard 1 momentum",
-                "Effect": "After you successfully block an attack, you may play up to 2 reversals instead of 1.>R Commit",
+                "Effect": "After you successfully block an attack, you may play up to 2 reversals instead of 1.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1505,7 +1490,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).        </div>",
+                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -1735,7 +1720,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "X equals the number of cards you revealed.        </div>",
+                "Effect": "X equals the number of cards you revealed.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1998,16 +1983,11 @@
             "Check": 2,
             "Symbols": ["all", "fire", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -2463,16 +2443,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "F",
                 "Cost": "Commit",
                 "Effect": "Reveal the top card of any player's deck. That player's next control check this turn gets +X or -X. X equals the number of cards in that player's staging area.",
@@ -2731,7 +2706,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After using this card to block a ranged attack, your opponent commits a number of foundations equal to half of the damage of the attack rounded up.        </div>",
+                "Effect": "After using this card to block a ranged attack, your opponent commits a number of foundations equal to half of the damage of the attack rounded up.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -3665,7 +3640,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Your opponent discards that card.        </div>",
+                "Effect": "Your opponent discards that card.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3695,7 +3670,7 @@
             "Abilities": [{
                 "Type": "E",
                 "Cost": "Commit",
-                "Effect": "Your Void attack gets +1 damage for each <img src=\"images/icons/void.png?20230902\" alt=\"void\" /> card in your card pool",
+                "Effect": "Your Void attack gets +1 damage for each Void card in your card pool",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -3752,16 +3727,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -3861,16 +3831,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -3901,16 +3866,11 @@
             "Check": 2,
             "Symbols": ["earth", "fire", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -3941,16 +3901,11 @@
             "Check": 2,
             "Symbols": ["fire", "good", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -3992,7 +3947,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After blocking a ranged attack with this card, if you are playing T. Hawk, you may remove this card from the game and force your opponent to discard their hand.        </div>",
+                "Effect": "After blocking a ranged attack with this card, if you are playing T. Hawk, you may remove this card from the game and force your opponent to discard their hand.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4026,7 +3981,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "When you are playing this card as a reversal after completely blocking a high attack, it gets +2 damage.After you have taken damage from an unblocked stun attack, you may play this card as a reversal.        </div>",
+                "Effect": "When you are playing this card as a reversal after completely blocking a high attack, it gets +2 damage.After you have taken damage from an unblocked stun attack, you may play this card as a reversal.",
                 "effectPath": ""
             }],
             "BlockZone": "",

@@ -397,12 +397,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
@@ -435,12 +430,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "",
             "BlockMod": null,
             "HandSize": null,
@@ -673,7 +663,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This attack cannot be blocked by mid blocks.        </div>",
+                "Effect": "This attack cannot be blocked by mid blocks.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -817,7 +807,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "While you have a face down card in your card pool, this card’s block modifier gets -2.        </div>",
+                "Effect": "While you have a face down card in your card pool, this card’s block modifier gets -2.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -1041,16 +1031,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "",
                 "Effect": "After this attack deals damage, gain 2 health. If you have 2 or more counters on your character, gain 4 health instead.",
@@ -1165,12 +1150,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 1,
             "HandSize": null,
@@ -1273,16 +1253,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "Your rival cannot play response abilities during the Damage Step of this attack.",
@@ -1458,7 +1433,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "When you try to block an attack with this card, return that attack to its printed speed.        </div>",
+                "Effect": "When you try to block an attack with this card, return that attack to its printed speed.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1558,7 +1533,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Reveal 1 card from your hand. Add 1 copy of the revealed card from your discard pile to your hand.        </div>",
+                "Effect": "- Reveal 1 card from your hand. Add 1 copy of the revealed card from your discard pile to your hand.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1628,7 +1603,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Ready 2 foundations that have not been readied this Combat Phase.        </div>",
+                "Effect": "- Ready 2 foundations that have not been readied this Combat Phase.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -1792,7 +1767,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Draw 1 card. Add 1 card from your hand to the top of your deck.        </div>",
+                "Effect": "- Draw 1 card. Add 1 card from your hand to the top of your deck.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -1832,7 +1807,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Build 1 card from your discard pile face down.        </div>",
+                "Effect": "- Build 1 card from your discard pile face down.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",

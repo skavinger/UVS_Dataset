@@ -124,7 +124,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Draw 1 card.        </div>",
+                "Effect": "- Draw 1 card.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -147,16 +147,11 @@
             "Check": 5,
             "Symbols": ["air", "life", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "Sacrifice",
                 "Effect": "After your rival plays an ability on an action card or a keyword ability on an attack card, cancel that ability. Draw 1 card.",
@@ -321,7 +316,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "If your last attack this turn was blocked, this attack gets -1 difficulty and +2 speed.        </div>",
+                "Effect": "If your last attack this turn was blocked, this attack gets -1 difficulty and +2 speed.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -419,7 +414,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "While you have a face down card in your card pool, this attack gets +3 damage.        </div>",
+                "Effect": "While you have a face down card in your card pool, this attack gets +3 damage.",
                 "effectPath": ""
             }],
             "BlockZone": "low",

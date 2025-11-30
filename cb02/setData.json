@@ -120,16 +120,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "If you have 3 or more face down foundations, draw 1 card.",
@@ -332,16 +327,11 @@
             "Check": 3,
             "Symbols": ["death", "life", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Destroy 1 face down foundation",
                 "Effect": "This attack gets +4 damage.",
@@ -559,7 +549,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you block with this card, remove it.        </div>",
+                "Effect": "After you block with this card, remove it.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -649,7 +639,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "After you play this card as a block, lose 1 health.        </div>",
+                "Effect": "After you play this card as a block, lose 1 health.",
                 "effectPath": ""
             }],
             "BlockZone": "low",
@@ -672,16 +662,11 @@
             "Check": 5,
             "Symbols": ["earth", "life", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "Remove",
                 "Effect": "After you take damage from an unblocked attack, your rival loses 3 health. This effect cannot reduce your rival below 1 health.",

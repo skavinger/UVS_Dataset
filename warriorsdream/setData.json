@@ -81,16 +81,11 @@
             "Check": 4,
             "Symbols": ["all", "fire", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "F",
                 "Cost": "Commit, discard 1 face down card from your card pool",
                 "Effect": "Until the end of this turn, attacks you play get +1 damage. Alex F Destroy this asset, discard up to 2 face down cards from your card pool",
@@ -183,7 +178,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This attack gets +X damage when it is played. X equals double the number of face down cards you have discarded from your card pool this turn.        </div>",
+                "Effect": "This attack gets +X damage when it is played. X equals double the number of face down cards you have discarded from your card pool this turn.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -361,16 +356,11 @@
             "Check": 3,
             "Symbols": ["all", "chaos", "evil"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "If your attack deals damage, the next check to play a punch attack this turn gets +X. X equals the amount of damage your attack dealt. Chaos Character First F Destroy this asset",
@@ -396,16 +386,11 @@
             "Check": 2,
             "Symbols": ["all", "chaos", "evil"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "If this attack is completely blocked, it still deals half damage (rounded up). E",
                 "Cost": "",
                 "Effect": "If this attack is not blocked, the next control check you make to play a non-attack card this turn gets +2.",
@@ -1005,16 +990,11 @@
             "Check": 2,
             "Symbols": ["death", "void", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "If this attack is completely blocked, it still deals half damage (rounded up). E",
                 "Cost": "",
                 "Effect": "If this attack is not blocked, the next ranged attack you play this turn gets +X speed. X equals the number of cards in your opponent's hand minus the number of cards in your hand (minimum 0).",
@@ -1249,16 +1229,11 @@
             "Check": 4,
             "Symbols": ["fire", "good", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit, commit 1 foundation",
                 "Effect": "Your attack gets +3 speed. Elena E Destroy this asset",
@@ -1546,16 +1521,11 @@
                 "Rating": 1,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "If you block this attack, you may add the card you blocked with either to your hand or to your momentum. Guile E Destroy this asset",
@@ -1622,7 +1592,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0. Attacks that have a block zone which matches their attack zone may not be used to block this attack.        </div>",
+                "Effect": "This card may be played as a block against any ranged attack as if this card had a mid block of +0. Attacks that have a block zone which matches their attack zone may not be used to block this attack.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -1829,16 +1799,11 @@
             "Check": 4,
             "Symbols": ["all", "death", "earth"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "R",
                 "Cost": "Commit, commit 1 foundation",
                 "Effect": "After you play a foundation, draw 2 cards.",
@@ -1933,16 +1898,11 @@
                 "Rating": 1,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "If this attack is completely blocked, it still deals half damage (rounded up). E",
                 "Cost": "",
                 "Effect": "If this attack is not blocked, your next attack this turn gets +3 damage.",
@@ -2170,7 +2130,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "While this card is in your card pool, whenever you cancel an opponent's card effect or destroy one of your opponent's cards in their staging area, you may draw a card.        </div>",
+                "Effect": "While this card is in your card pool, whenever you cancel an opponent's card effect or destroy one of your opponent's cards in their staging area, you may draw a card.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -2322,16 +2282,11 @@
             "Check": 4,
             "Symbols": ["death", "evil", "order"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "R",
                 "Cost": "Destroy this foundation",
                 "Effect": "After your opponent plays a response ability on a card in their staging area, cancel its effects and destroy that card.",
@@ -2451,16 +2406,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -2491,16 +2441,11 @@
             "Check": 3,
             "Symbols": ["earth", "void", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "If this attack is completely blocked, it still deals half damage (rounded up). E",
                 "Cost": "",
                 "Effect": "If this attack is not blocked, it gets +2 damage.",
@@ -2530,16 +2475,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
@@ -2725,16 +2665,11 @@
             "Check": 4,
             "Symbols": ["air", "all", "death"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Your opponent discards 1 card. If the discarded card is a copy of a card in your opponent's discard pile, they discard an additional card. Only playable if your opponent has 4 or more cards in hand. Remy E Destroy this asset",
@@ -3099,16 +3034,11 @@
             "Check": 2,
             "Symbols": ["air", "fire", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Static",
                 "Cost": "",
                 "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",

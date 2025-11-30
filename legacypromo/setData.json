@@ -558,7 +558,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "Each player gets -1 hand size, (to a minimum of 3).        </div>",
+                "Effect": "Each player gets -1 hand size, (to a minimum of 3).",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1021,16 +1021,15 @@
             "Check": 4,
             "Symbols": ["earth", "fire", "life"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Weapon",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr>",
-                "Cost": "",
-                "Effect": "- Weapon",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit, discard 1 momentum",
                 "Effect": "Your weapon attack gets +2 speed or +4 damage.",
@@ -1667,7 +1666,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "During each player's end phase, if that player did not attempt to play an attack, that player loses 1 vitality        </div>",
+                "Effect": "During each player's end phase, if that player did not attempt to play an attack, that player loses 1 vitality",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4017,7 +4016,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "All attacks get the Reversal keyword.        </div>",
+                "Effect": "All attacks get the Reversal keyword.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -5134,16 +5133,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Add 1 card from the top of your deck to your momentum.",
@@ -5178,16 +5172,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Change any attack's zone to low.",
@@ -5472,12 +5461,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "</div>",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 0,
             "HandSize": 6,
@@ -5593,16 +5577,11 @@
             "Check": 2,
             "Symbols": ["air", "earth", "fire", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Commit",
                 "Effect": "Discard 1 card from your card pool.",
@@ -5673,16 +5652,11 @@
             "Check": 1,
             "Symbols": ["infinity"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "E",
                 "Cost": "Discard 1 card",
                 "Effect": "Your attack gets -3 speed (to a minimum of 1) and +4 damage.",

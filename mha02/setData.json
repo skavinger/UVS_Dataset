@@ -508,16 +508,11 @@
             "Check": 3,
             "Symbols": ["earth", "good", "life"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "",
                 "Effect": "Build 1 foundation with a printed difficulty of 0 from your discard pile committed.",
@@ -2258,7 +2253,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- This attack gets -1 speed and +2 damage.        </div>",
+                "Effect": "- This attack gets -1 speed and +2 damage.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -3406,16 +3401,11 @@
             "Check": 3,
             "Symbols": ["earth", "life", "water"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "",
                 "Effect": "If this attack deals less than 5 damage, add 1 copy of \"Faith's Shield\" from your discard pile to your hand.",
@@ -3796,7 +3786,7 @@
             }, {
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "- Gain 2 health.        </div>",
+                "Effect": "- Gain 2 health.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
@@ -4273,17 +4263,12 @@
             "Check": 5,
             "Symbols": ["infinity"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
-                "Type": "<img src=\"images/icons/mha02.png?3\" alt=\"mha02\" /> Response",
+                "Type": "RED UA Response",
                 "Cost": "Commit",
                 "Effect": "After your rival adds any number of cards to their hand due to their non-character effect, they discard 1 card.",
                 "effectPath": ""
@@ -4348,16 +4333,11 @@
             "Check": 5,
             "Symbols": ["all", "death", "void"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Commit",
                 "Effect": "Switch the speed and damage of your rival's attack.",
@@ -4476,7 +4456,7 @@
             "Abilities": [{
                 "Type": "Static",
                 "Cost": "",
-                "Effect": "<img src=\"images/icons/mha02.png?3\" alt=\"mha02\" /> If there are at least 5 cards in your card pool, this card ignores progressive difficulty.        </div>",
+                "Effect": "RED UA If there are at least 5 cards in your card pool, this card ignores progressive difficulty.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
@@ -4569,16 +4549,11 @@
             "Check": 3,
             "Symbols": ["all", "evil", "good"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "up).\">Throw</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Lose 2 health",
                 "Effect": "This attack gets +3 damage.",
@@ -4880,16 +4855,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "Commit",
                 "Effect": "After your attack deals damage, choose 1 committed rival foundation. While this card is committed, the chosen foundation cannot be readied.",
@@ -4920,16 +4890,15 @@
             "Check": 3,
             "Symbols": ["all", "evil", "good"],
             "Keywords": [{
-                "Name": "<abbr title=\"If this attack is completely blocked, it still deals half damage (rounded",
+                "Name": "Throw",
+                "Rating": null,
+                "effectPath": ""
+            }, {
+                "Name": "Combo(High Block)",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "up).\">Throw</abbr>",
-                "Cost": "",
-                "Effect": "- <abbr title=\"In order to play the Combo ability written in the card text box, you must have cards with the required traits (noted in the parentheses) in the card pool immediately preceding this card in the listed order. Any references given to zones in the requirements refer to attack zones.\">Combo</abbr>(High Block)",
-                "effectPath": ""
-            }, {
                 "Type": "Combo Enhance",
                 "Cost": "",
                 "Effect": "If you have dealt damage this turn, this attack gets +2 damage and Stun: 1.",
@@ -5790,16 +5759,11 @@
             "Check": 5,
             "Symbols": ["all", "chaos", "order"],
             "Keywords": [{
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "Flip",
                 "Effect": "After your attack deals damage, add it to the top of your deck. Your next check to play an attack gets +2.",
@@ -5829,16 +5793,11 @@
                 "Rating": null,
                 "effectPath": ""
             }, {
-                "Name": "<abbr title=\"You may only have one copy of this card in your staging area at a time.",
+                "Name": "Unique",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If a second copy of the card is in or moved to your staging area, keep the copy that has been in play the longest and destroy the rest.\">Unique</abbr></strong>        <div id=\"text\">",
-                "effectPath": ""
-            }, {
                 "Type": "Response",
                 "Cost": "Discard the top 2 cards of your deck",
                 "Effect": "After your Powerful attack is blocked, gain 1 health and your rival loses 1 health.",
