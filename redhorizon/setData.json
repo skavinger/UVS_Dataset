@@ -351,9 +351,9 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "",
-                "Cost": "Your attacks with a printed blank text box get 'Powerful",
-                "Effect": "3'.",
+                "Type": "Static",
+                "Cost": "",
+                "Effect": "Your attacks with a printed blank text box get 'Powerful:3'.",
                 "effectPath": ""
             }, {
                 "Type": "Response",
@@ -1080,8 +1080,8 @@
                 "Effect": "your opponent must add 1 foundation from their staging area to their card pool.",
                 "effectPath": ""
             }, {
-                "Type": "",
-                "Cost": "E(5+)",
+                "Type": "Enhance",
+                "Cost": "(5+)",
                 "Effect": "This attack gets +X damage. X equals the number of Ranged attacks in your card pool.",
                 "effectPath": ""
             }],

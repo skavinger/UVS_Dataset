@@ -95,7 +95,7 @@
                 "Effect": "Your attack gets 'Stun",
                 "effectPath": ""
             }, {
-                "Type": "X equals your opponent's momentum.Kilik Response",
+                "Type": "Kilik Response",
                 "Cost": "Commit, destroy this asset",
                 "Effect": "After your opponent adds 1 or more cards to their momentum, they cannot add cards to their momentum until the beginning of their next turn.",
                 "effectPath": ""
@@ -688,10 +688,10 @@
             "Abilities": [{
                 "Type": "Enhance",
                 "Cost": "Commit",
-                "Effect": "Your attack with 3 or less printed damage gets +X damage.",
+                "Effect": "Your attack with 3 or less printed damage gets +X damage.X equals that attack's printed damage.",
                 "effectPath": ""
             }, {
-                "Type": "X equals that attack's printed damage.Mitsurugi Enhance",
+                "Type": "Mitsurugi Enhance",
                 "Cost": "Destroy this asset",
                 "Effect": "For the rest of the turn, your attacks get +2 damage.",
                 "effectPath": ""
@@ -1898,7 +1898,7 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "After you play an attack during your turn, your opponent discards 1 of their momentum.Siegfried Enhance",
+                "Type": "Siegfried Enhance",
                 "Cost": "Destroy this asset",
                 "Effect": "If you have more momentum than your opponent, your attack gets +4 damage.",
                 "effectPath": ""

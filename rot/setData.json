@@ -2902,19 +2902,14 @@
             "Check": 4,
             "Symbols": ["air", "chaos", "fire"],
             "Keywords": [{
-                "Name": "",
+                "Name": "Taunt",
                 "Rating": null,
                 "effectPath": ""
             }],
             "Abilities": [{
                 "Type": "Response",
                 "Cost": "Remove this card from the game",
-                "Effect": "After a stun attack deals damage, draw 2 cards.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "If your opponent's character is 'G",
-                "Effect": "F', discard up to 2 cards from your card pool.",
+                "Effect": "After a stun attack deals damage, draw 2 cards.If your opponent's character is 'G:F', discard up to 2 cards from your card pool.",
                 "effectPath": ""
             }],
             "BlockZone": "high",
