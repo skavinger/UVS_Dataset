@@ -596,22 +596,7 @@
             }, {
                 "Type": "Response",
                 "Cost": "[Once per turn] Discard 1 card",
-                "Effect": "After you play an attack card, choose 1 -",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- It gains EX",
-                "Effect": "3.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Your rival commits 2 foundations.",
-                "effectPath": ""
-            }, {
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "- Draw 2 cards.",
+                "Effect": "After you play an attack card, choose 1 \n- It gains EX:3\n- Your rival commits 2 foundations.\n- Draw 2 cards.",
                 "effectPath": ""
             }],
             "BlockZone": "",
@@ -1504,27 +1489,7 @@
             "Abilities": [{
                 "Type": "Blitz",
                 "Cost": "",
-                "Effect": "Choose Acid, Cold, Electricity, or Fire.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Acid",
-                "Effect": "If this attack deals damage to a character, your rival sacrifices 1 foundation.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Cold",
-                "Effect": "Freeze 1 rival foundation.",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Electricity",
-                "Effect": "This attack gains Stun",
-                "effectPath": ""
-            }, {
-                "Type": "",
-                "Cost": "- Fire",
-                "Effect": "This attack gets +2 damage.",
+                "Effect": "Choose Acid, Cold, Electricity, or Fire.\n- Acid: If this attack deals damage to a character, your rival sacrifices 1 foundation.\n- Cold: Freeze 1 rival foundation.\n- Electricity: This attack gains Stun:1.\n- Fire: This attack gets +2 damage.",
                 "effectPath": ""
             }],
             "BlockZone": "mid",
