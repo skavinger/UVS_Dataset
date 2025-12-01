@@ -686,12 +686,7 @@
                 "Rating": null,
                 "effectPath": ""
             }],
-            "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
-                "effectPath": ""
-            }],
+            "Abilities": [],
             "BlockZone": "mid",
             "BlockMod": 3,
             "HandSize": null,
@@ -747,11 +742,6 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Commit 1 foundation",
                 "Effect": "This attack gets +X damage. X equals the number of foundations in your opponent's staging area that give a damage penalty.",
@@ -2167,11 +2157,6 @@
                 "effectPath": ""
             }],
             "Abilities": [{
-                "Type": "Static",
-                "Cost": "",
-                "Effect": "If this attack is completely blocked, it still deals half damage (rounded up).",
-                "effectPath": ""
-            }, {
                 "Type": "Enhance",
                 "Cost": "Destroy 1 asset",
                 "Effect": "If this attack is in not blocked, add 1 card from your momentum to your hand.",
