@@ -1,8 +1,0 @@
-# Merge strategy for optimize_images branch merges
-# When merging optimize_images into main:
-# - JSON files should come from main (ours)
-# - ZIP files should come from optimize_images (theirs)
-
-*.json merge=ours
-*.zip merge=theirs
-
